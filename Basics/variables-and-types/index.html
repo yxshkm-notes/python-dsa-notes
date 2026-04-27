@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#variables-and-types" class="md-skip">
+        <a href="#variables-data-types" class="md-skip">
           Skip to content
         </a>
       
@@ -343,6 +343,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Variables & Data Types
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -359,6 +377,376 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📖 Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏷️ Variables
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏷️ Variables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#declaring-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Declaring Variables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-naming-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Variable Naming Rules
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-assignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Assignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#numeric-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔢 Numeric Types
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔢 Numeric Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-integer-int" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ Integer (int)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-float-float" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ Float (float)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-complex-complex" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️⃣ Complex (complex)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#text-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📝 Text Type
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📝 Text Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#4-string-str" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4️⃣ String (str)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📋 Sequence Types
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📋 Sequence Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#5-list-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️⃣ List (list)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-tuple-tuple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6️⃣ Tuple (tuple)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔣 Set Types
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔣 Set Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#7-set-set" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7️⃣ Set (set)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapping-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🗂️ Mapping Type
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🗂️ Mapping Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#8-dictionary-dict" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8️⃣ Dictionary (dict)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boolean-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✔️ Boolean Type
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="✔️ Boolean Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#9-boolean-bool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9️⃣ Boolean (bool)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#none-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚫 None Type
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚫 None Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nonetype-none" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔟 NoneType (None)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔄 Type Conversion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔄 Type Conversion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#implicit-conversion-automatic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implicit Conversion (Automatic)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#explicit-conversion-casting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Explicit Conversion (Casting)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-checking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔍 Type Checking
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅ Quick Reference Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1420,6 +1808,365 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📖 Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏷️ Variables
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏷️ Variables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#declaring-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Declaring Variables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-naming-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Variable Naming Rules
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-assignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Assignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#numeric-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔢 Numeric Types
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔢 Numeric Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-integer-int" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ Integer (int)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-float-float" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ Float (float)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-complex-complex" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️⃣ Complex (complex)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#text-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📝 Text Type
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📝 Text Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#4-string-str" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4️⃣ String (str)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📋 Sequence Types
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📋 Sequence Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#5-list-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️⃣ List (list)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-tuple-tuple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6️⃣ Tuple (tuple)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔣 Set Types
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔣 Set Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#7-set-set" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7️⃣ Set (set)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapping-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🗂️ Mapping Type
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🗂️ Mapping Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#8-dictionary-dict" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8️⃣ Dictionary (dict)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boolean-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✔️ Boolean Type
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="✔️ Boolean Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#9-boolean-bool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9️⃣ Boolean (bool)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#none-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚫 None Type
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚫 None Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nonetype-none" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔟 NoneType (None)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔄 Type Conversion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔄 Type Conversion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#implicit-conversion-automatic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implicit Conversion (Automatic)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#explicit-conversion-casting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Explicit Conversion (Casting)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-checking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔍 Type Checking
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅ Quick Reference Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1438,7 +2185,940 @@
   
 
 
-<h1 id="variables-and-types">Variables and Types<a class="headerlink" href="#variables-and-types" title="Permanent link">&para;</a></h1>
+<h1 id="variables-data-types">Variables &amp; Data Types 📚<a class="headerlink" href="#variables-data-types" title="Permanent link">&para;</a></h1>
+<div class="admonition abstract">
+<p class="admonition-title">What You'll Learn</p>
+<ul>
+<li>✅ What variables are and how to declare them</li>
+<li>✅ All Python built-in data types with examples</li>
+<li>✅ Memory allocation and how Python stores data</li>
+<li>✅ Type conversion (implicit &amp; explicit)</li>
+<li>✅ Type checking with <code>type()</code> and <code>isinstance()</code></li>
+<li>✅ Common mistakes to avoid</li>
+</ul>
+</div>
+<hr />
+<h2 id="introduction">📖 Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>In Python, a <strong>variable</strong> is a name that refers to a value stored in memory. Unlike C or Java, Python is <strong>dynamically typed</strong> — you don't need to declare the type of a variable. Python figures it out automatically.</p>
+<div class="admonition tip">
+<p class="admonition-title">New to Python?</p>
+<p>Start with <strong>Basics → Complexity Analysis → Data Structures → Algorithms</strong> before jumping into practice problems.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Already know Python?</p>
+<p>Jump straight to <strong>Data Structures</strong> or <strong>Algorithms</strong> depending on what you're revising.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Keep in mind</p>
+<p>Every topic includes real code examples, memory diagrams, and practical use cases — read them carefully, don't just skim the code.</p>
+</div>
+<hr />
+<div class="admonition tip">
+<p class="admonition-title">Think of it this way</p>
+<p>A variable is like a label on a box 📦. The label (variable name) points to whatever is inside the box (value). You can change what's in the box at any time!</p>
+</div>
+<pre class="mermaid"><code>graph TD
+    A[Python Data Types] --&gt; B[Numeric]
+    A --&gt; C[Sequence]
+    A --&gt; D[Set]
+    A --&gt; E[Mapping]
+    A --&gt; F[Boolean]
+    A --&gt; G[None]
+
+    B --&gt; B1[int - Whole Numbers]
+    B --&gt; B2[float - Decimals]
+    B --&gt; B3[complex - Complex Numbers]
+
+    C --&gt; C1[str - Text]
+    C --&gt; C2[list - Mutable Sequence]
+    C --&gt; C3[tuple - Immutable Sequence]
+
+    D --&gt; D1[set - Unique Elements]
+    D --&gt; D2[frozenset - Immutable Set]
+
+    E --&gt; E1[dict - Key-Value Pairs]
+
+    F --&gt; F1[bool - True / False]
+
+    G --&gt; G1[NoneType - No Value]</code></pre>
+<hr />
+<h2 id="variables">🏷️ Variables<a class="headerlink" href="#variables" title="Permanent link">&para;</a></h2>
+<h3 id="declaring-variables">Declaring Variables<a class="headerlink" href="#declaring-variables" title="Permanent link">&para;</a></h3>
+<p>Python uses <strong>dynamic typing</strong> — no need to specify the type.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Alice&quot;</span>       <span class="c1"># str</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">age</span> <span class="o">=</span> <span class="mi">25</span>             <span class="c1"># int</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="n">height</span> <span class="o">=</span> <span class="mf">5.7</span>         <span class="c1"># float</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">is_student</span> <span class="o">=</span> <span class="kc">True</span>    <span class="c1"># bool</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">nothing</span> <span class="o">=</span> <span class="kc">None</span>       <span class="c1"># NoneType</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>name      → Alice
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>age       → 25
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>height    → 5.7
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>is_student → True
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>nothing   → None
+</code></pre></div></p>
+<h3 id="variable-naming-rules">Variable Naming Rules<a class="headerlink" href="#variable-naming-rules" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p class="admonition-title">Rules</p>
+<ul>
+<li>Must start with a letter or <code>_</code> (not a digit)</li>
+<li>Can contain letters, digits, and underscores</li>
+<li>Case-sensitive: <code>age</code> ≠ <code>Age</code> ≠ <code>AGE</code></li>
+<li>Cannot use Python keywords (<code>if</code>, <code>for</code>, <code>class</code>, etc.)</li>
+</ul>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">✅ Valid Names</label><label for="__tabbed_1_2">❌ Invalid Names</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Alice&quot;</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">_name</span> <span class="o">=</span> <span class="s2">&quot;Bob&quot;</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="n">name1</span> <span class="o">=</span> <span class="s2">&quot;Charlie&quot;</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="n">my_name</span> <span class="o">=</span> <span class="s2">&quot;Dave&quot;</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="n">NAME</span> <span class="o">=</span> <span class="s2">&quot;EVE&quot;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="mi">1</span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Alice&quot;</span>     <span class="c1"># ❌ Starts with digit</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">my</span><span class="o">-</span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Bob&quot;</span>     <span class="c1"># ❌ Hyphen not allowed</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="k">for</span> <span class="o">=</span> <span class="mi">10</span>            <span class="c1"># ❌ Reserved keyword</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="n">my</span> <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Dave&quot;</span>    <span class="c1"># ❌ Space not allowed</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<h3 id="multiple-assignment">Multiple Assignment<a class="headerlink" href="#multiple-assignment" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1"># Assign same value to multiple variables</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">x</span> <span class="o">=</span> <span class="n">y</span> <span class="o">=</span> <span class="n">z</span> <span class="o">=</span> <span class="mi">0</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="c1"># Assign multiple values at once</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="c1"># Swap values (Pythonic way)</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span>
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>0 0 0
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>10 20 30
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>20 10
+</code></pre></div></p>
+<div class="admonition tip">
+<p class="admonition-title">Python Convention</p>
+<p>Use <strong>snake_case</strong> for variable names: <code>my_variable</code>, <code>student_name</code>, <code>total_marks</code></p>
+</div>
+<hr />
+<h2 id="numeric-types">🔢 Numeric Types<a class="headerlink" href="#numeric-types" title="Permanent link">&para;</a></h2>
+<h3 id="1-integer-int">1️⃣ Integer (<code>int</code>)<a class="headerlink" href="#1-integer-int" title="Permanent link">&para;</a></h3>
+<p>Stores whole numbers — positive, negative, or zero. <strong>No size limit</strong> in Python!</p>
+<div class="admonition info">
+<p class="admonition-title">Real-Life Example</p>
+<ul>
+<li>Age: <code>25</code></li>
+<li>Number of students: <code>50</code></li>
+<li>Bank balance: <code>-1500</code></li>
+</ul>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">age</span> <span class="o">=</span> <span class="mi">25</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="n">students</span> <span class="o">=</span> <span class="mi">50</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="n">negative</span> <span class="o">=</span> <span class="o">-</span><span class="mi">100</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="n">big_num</span> <span class="o">=</span> <span class="mi">999_999_999</span>   <span class="c1"># Underscore for readability</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">students</span><span class="p">)</span>
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">negative</span><span class="p">)</span>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a><span class="nb">print</span><span class="p">(</span><span class="n">big_num</span><span class="p">)</span>
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">age</span><span class="p">))</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>25
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>50
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>-100
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>999999999
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>&lt;class &#39;int&#39;&gt;
+</code></pre></div></p>
+<p><strong>Integer in Different Bases</strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Binary (base 2)</label><label for="__tabbed_2_2">Octal (base 8)</label><label for="__tabbed_2_3">Hexadecimal (base 16)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">b</span> <span class="o">=</span> <span class="mb">0b1010</span>       <span class="c1"># Binary literal</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>         <span class="c1"># 10</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bin</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>   <span class="c1"># &#39;0b1010&#39;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="n">o</span> <span class="o">=</span> <span class="mo">0o17</span>         <span class="c1"># Octal literal</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">o</span><span class="p">)</span>         <span class="c1"># 15</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="nb">print</span><span class="p">(</span><span class="nb">oct</span><span class="p">(</span><span class="mi">15</span><span class="p">))</span>   <span class="c1"># &#39;0o17&#39;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="n">h</span> <span class="o">=</span> <span class="mh">0xFF</span>         <span class="c1"># Hex literal</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">h</span><span class="p">)</span>         <span class="c1"># 255</span>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="nb">print</span><span class="p">(</span><span class="nb">hex</span><span class="p">(</span><span class="mi">255</span><span class="p">))</span>  <span class="c1"># &#39;0xff&#39;</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p><strong>Memory Visualization</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>Python int (arbitrary precision — grows as needed)
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>small int (e.g. 25):
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>┌─────────────────────────────┐
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>│  ob_refcnt  │  ob_type      │  ← CPython object header
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>├─────────────────────────────┤
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>│  ob_digit[0] = 25           │  ← actual value stored here
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>└─────────────────────────────┘
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>
+<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>Unlike C, Python ints never overflow — they expand automatically!
+</code></pre></div>
+<p><strong>Practical Example: Simple Calculator</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="n">num1</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter first number: &quot;</span><span class="p">))</span>
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="n">num2</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter second number: &quot;</span><span class="p">))</span>
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">📊 Results:&quot;</span><span class="p">)</span>
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Sum:        </span><span class="si">{</span><span class="n">num1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">num2</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Difference: </span><span class="si">{</span><span class="n">num1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">num2</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Product:    </span><span class="si">{</span><span class="n">num1</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">num2</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Quotient:   </span><span class="si">{</span><span class="n">num1</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">num2</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-12-9" name="__codelineno-12-9" href="#__codelineno-12-9"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Floor Div:  </span><span class="si">{</span><span class="n">num1</span><span class="w"> </span><span class="o">//</span><span class="w"> </span><span class="n">num2</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-12-10" name="__codelineno-12-10" href="#__codelineno-12-10"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Remainder:  </span><span class="si">{</span><span class="n">num1</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">num2</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-12-11" name="__codelineno-12-11" href="#__codelineno-12-11"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Power:      </span><span class="si">{</span><span class="n">num1</span><span class="w"> </span><span class="o">**</span><span class="w"> </span><span class="n">num2</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Common Mistake</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="n">result</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">/</span> <span class="mi">3</span>
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>   <span class="c1"># 3.3333... (float, not int!)</span>
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="n">result</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">//</span> <span class="mi">3</span>
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>   <span class="c1"># 3 (floor division → gives int)</span>
+</code></pre></div>
+<code>/</code> always returns a <code>float</code>. Use <code>//</code> for integer division.</p>
+</div>
+<hr />
+<h3 id="2-float-float">2️⃣ Float (<code>float</code>)<a class="headerlink" href="#2-float-float" title="Permanent link">&para;</a></h3>
+<p>Stores decimal numbers. Follows <strong>IEEE 754</strong> double-precision standard (64-bit).</p>
+<div class="admonition info">
+<p class="admonition-title">Real-Life Example</p>
+<ul>
+<li>Temperature: <code>98.6</code></li>
+<li>Price: <code>19.99</code></li>
+<li>Pi: <code>3.141592653589793</code></li>
+</ul>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="n">temperature</span> <span class="o">=</span> <span class="mf">98.6</span>
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="n">price</span> <span class="o">=</span> <span class="mf">19.99</span>
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="n">pi</span> <span class="o">=</span> <span class="mf">3.141592653589793</span>
+<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="n">scientific</span> <span class="o">=</span> <span class="mf">1.5e10</span>     <span class="c1"># Scientific notation = 15000000000.0</span>
+<a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a>
+<a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">temperature</span><span class="p">)</span>
+<a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">price</span><span class="p">)</span>
+<a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>
+<a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a><span class="nb">print</span><span class="p">(</span><span class="n">scientific</span><span class="p">)</span>
+<a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">pi</span><span class="p">))</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>98.6
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>19.99
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>3.141592653589793
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a>15000000000.0
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>&lt;class &#39;float&#39;&gt;
+</code></pre></div></p>
+<p><strong>Memory Visualization</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>float (64-bit IEEE 754 double precision)
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>┌──────┬──────────────┬──────────────────────────────────────────┐
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>│ Sign │   Exponent   │                Mantissa                  │
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>├──────┼──────────────┼──────────────────────────────────────────┤
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a>│ 1bit │    11 bits   │                 52 bits                  │
+<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>└──────┴──────────────┴──────────────────────────────────────────┘
+<a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a>   ↑           ↑                         ↑
+<a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a> +/- sign   Power of 2           Fractional part
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Floating Point Precision</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mf">0.1</span> <span class="o">+</span> <span class="mf">0.2</span>
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>           <span class="c1"># 0.30000000000000004 😱</span>
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="c1"># Fix: use round() or decimal module</span>
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span> <span class="c1"># 0.3 ✅</span>
+<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a>
+<a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a><span class="kn">from</span><span class="w"> </span><span class="nn">decimal</span><span class="w"> </span><span class="kn">import</span> <span class="n">Decimal</span>
+<a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">Decimal</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">Decimal</span><span class="p">(</span><span class="s1">&#39;0.2&#39;</span><span class="p">))</span>  <span class="c1"># 0.3 ✅</span>
+</code></pre></div>
+</div>
+<p><strong>Special Float Values</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">math</span>
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="nb">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="s1">&#39;inf&#39;</span><span class="p">))</span>   <span class="c1"># Infinity</span>
+<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="nb">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="s1">&#39;-inf&#39;</span><span class="p">))</span>  <span class="c1"># Negative Infinity</span>
+<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a><span class="nb">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="s1">&#39;nan&#39;</span><span class="p">))</span>   <span class="c1"># Not a Number</span>
+<a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>
+<a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">isinf</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="s1">&#39;inf&#39;</span><span class="p">)))</span>  <span class="c1"># True</span>
+<a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="s1">&#39;nan&#39;</span><span class="p">)))</span>  <span class="c1"># True</span>
+</code></pre></div>
+<hr />
+<h3 id="3-complex-complex">3️⃣ Complex (<code>complex</code>)<a class="headerlink" href="#3-complex-complex" title="Permanent link">&para;</a></h3>
+<p>Stores numbers with a real and imaginary part.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="n">c1</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">4</span><span class="n">j</span>
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="n">c2</span> <span class="o">=</span> <span class="nb">complex</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">)</span>
+<a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>
+<a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">c1</span><span class="p">)</span>           <span class="c1"># (3+4j)</span>
+<a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">c2</span><span class="p">)</span>           <span class="c1"># (2-5j)</span>
+<a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">c1</span><span class="o">.</span><span class="n">real</span><span class="p">)</span>      <span class="c1"># 3.0</span>
+<a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">c1</span><span class="o">.</span><span class="n">imag</span><span class="p">)</span>      <span class="c1"># 4.0</span>
+<a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a><span class="nb">print</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">c1</span><span class="p">))</span>      <span class="c1"># 5.0  (magnitude: √(3²+4²))</span>
+<a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a><span class="nb">print</span><span class="p">(</span><span class="n">c1</span> <span class="o">+</span> <span class="n">c2</span><span class="p">)</span>      <span class="c1"># (5-1j)</span>
+<a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">c1</span><span class="p">))</span>     <span class="c1"># &lt;class &#39;complex&#39;&gt;</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>(3+4j)
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>(2-5j)
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a>3.0
+<a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a>4.0
+<a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a>5.0
+<a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a>(5-1j)
+<a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a>&lt;class &#39;complex&#39;&gt;
+</code></pre></div></p>
+<div class="admonition info">
+<p class="admonition-title">When to Use</p>
+<p>Complex numbers are used in signal processing, electrical engineering, and scientific computing.</p>
+</div>
+<hr />
+<h2 id="text-type">📝 Text Type<a class="headerlink" href="#text-type" title="Permanent link">&para;</a></h2>
+<h3 id="4-string-str">4️⃣ String (<code>str</code>)<a class="headerlink" href="#4-string-str" title="Permanent link">&para;</a></h3>
+<p>Stores text — an immutable sequence of Unicode characters.</p>
+<div class="admonition info">
+<p class="admonition-title">Real-Life Example</p>
+<ul>
+<li>Name: <code>"Alice"</code></li>
+<li>Message: <code>"Hello, World!"</code></li>
+<li>Email: <code>"alice@example.com"</code></li>
+</ul>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Alice&quot;</span>
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a><span class="n">greeting</span> <span class="o">=</span> <span class="s1">&#39;Hello, World!&#39;</span>
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a><span class="n">multiline</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;This is</span>
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a><span class="s2">a multiline</span>
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a><span class="s2">string&quot;&quot;&quot;</span>
+<a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a>
+<a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+<a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">greeting</span><span class="p">)</span>
+<a id="__codelineno-21-9" name="__codelineno-21-9" href="#__codelineno-21-9"></a><span class="nb">print</span><span class="p">(</span><span class="n">multiline</span><span class="p">)</span>
+<a id="__codelineno-21-10" name="__codelineno-21-10" href="#__codelineno-21-10"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">name</span><span class="p">))</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>Alice
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>Hello, World!
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>This is
+<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>a multiline
+<a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a>string
+<a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a>&lt;class &#39;str&#39;&gt;
+</code></pre></div></p>
+<p><strong>Memory Visualization</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>str = &quot;Hello&quot;
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>Index:    0     1     2     3     4
+<a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>        ┌─────┬─────┬─────┬─────┬─────┐
+<a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a>Char:   │  H  │  e  │  l  │  l  │  o  │
+<a id="__codelineno-23-6" name="__codelineno-23-6" href="#__codelineno-23-6"></a>        └─────┴─────┴─────┴─────┴─────┘
+<a id="__codelineno-23-7" name="__codelineno-23-7" href="#__codelineno-23-7"></a>Neg idx: -5    -4    -3    -2    -1
+<a id="__codelineno-23-8" name="__codelineno-23-8" href="#__codelineno-23-8"></a>
+<a id="__codelineno-23-9" name="__codelineno-23-9" href="#__codelineno-23-9"></a>Strings are immutable — you cannot change individual characters!
+</code></pre></div>
+<p><strong>String Operations</strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:4"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><input id="__tabbed_3_4" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Indexing &amp; Slicing</label><label for="__tabbed_3_2">Common Methods</label><label for="__tabbed_3_3">f-Strings (Formatting)</label><label for="__tabbed_3_4">Checking Content</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;Python&quot;</span>
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>      <span class="c1"># P</span>
+<a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>     <span class="c1"># n</span>
+<a id="__codelineno-24-5" name="__codelineno-24-5" href="#__codelineno-24-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>    <span class="c1"># Pyt</span>
+<a id="__codelineno-24-6" name="__codelineno-24-6" href="#__codelineno-24-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[::</span><span class="mi">2</span><span class="p">])</span>    <span class="c1"># Pto</span>
+<a id="__codelineno-24-7" name="__codelineno-24-7" href="#__codelineno-24-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>   <span class="c1"># nohtyP (reversed)</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;  hello world  &quot;</span>
+<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>
+<a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>         <span class="c1"># &quot;hello world&quot;</span>
+<a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>         <span class="c1"># &quot;  HELLO WORLD  &quot;</span>
+<a id="__codelineno-25-5" name="__codelineno-25-5" href="#__codelineno-25-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>         <span class="c1"># &quot;  hello world  &quot;</span>
+<a id="__codelineno-25-6" name="__codelineno-25-6" href="#__codelineno-25-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">,</span> <span class="s2">&quot;hi&quot;</span><span class="p">))</span>  <span class="c1"># &quot;  hi world  &quot;</span>
+<a id="__codelineno-25-7" name="__codelineno-25-7" href="#__codelineno-25-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>         <span class="c1"># [&#39;hello&#39;, &#39;world&#39;]</span>
+<a id="__codelineno-25-8" name="__codelineno-25-8" href="#__codelineno-25-8"></a><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>            <span class="c1"># 15</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Alice&quot;</span>
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a><span class="n">age</span> <span class="o">=</span> <span class="mi">25</span>
+<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a><span class="n">gpa</span> <span class="o">=</span> <span class="mf">3.85</span>
+<a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a>
+<a id="__codelineno-26-5" name="__codelineno-26-5" href="#__codelineno-26-5"></a><span class="c1"># f-string (recommended ✅)</span>
+<a id="__codelineno-26-6" name="__codelineno-26-6" href="#__codelineno-26-6"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Name: </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, Age: </span><span class="si">{</span><span class="n">age</span><span class="si">}</span><span class="s2">, GPA: </span><span class="si">{</span><span class="n">gpa</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-26-7" name="__codelineno-26-7" href="#__codelineno-26-7"></a>
+<a id="__codelineno-26-8" name="__codelineno-26-8" href="#__codelineno-26-8"></a><span class="c1"># .format()</span>
+<a id="__codelineno-26-9" name="__codelineno-26-9" href="#__codelineno-26-9"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Name: </span><span class="si">{}</span><span class="s2">, Age: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">))</span>
+<a id="__codelineno-26-10" name="__codelineno-26-10" href="#__codelineno-26-10"></a>
+<a id="__codelineno-26-11" name="__codelineno-26-11" href="#__codelineno-26-11"></a><span class="c1"># % formatting (old style)</span>
+<a id="__codelineno-26-12" name="__codelineno-26-12" href="#__codelineno-26-12"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Name: </span><span class="si">%s</span><span class="s2">, Age: </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">))</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;Hello123&quot;</span>
+<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>
+<a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">isalpha</span><span class="p">())</span>   <span class="c1"># False (has digits)</span>
+<a id="__codelineno-27-4" name="__codelineno-27-4" href="#__codelineno-27-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">isdigit</span><span class="p">())</span>   <span class="c1"># False (has letters)</span>
+<a id="__codelineno-27-5" name="__codelineno-27-5" href="#__codelineno-27-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">isalnum</span><span class="p">())</span>   <span class="c1"># True</span>
+<a id="__codelineno-27-6" name="__codelineno-27-6" href="#__codelineno-27-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;Hello&quot;</span><span class="p">))</span>  <span class="c1"># True</span>
+<a id="__codelineno-27-7" name="__codelineno-27-7" href="#__codelineno-27-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;123&quot;</span><span class="p">))</span>      <span class="c1"># True</span>
+<a id="__codelineno-27-8" name="__codelineno-27-8" href="#__codelineno-27-8"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;ell&quot;</span> <span class="ow">in</span> <span class="n">s</span><span class="p">)</span>             <span class="c1"># True</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Strings are Immutable</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;Hello&quot;</span>
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;h&quot;</span>   <span class="c1"># ❌ TypeError: &#39;str&#39; object does not support item assignment</span>
+<a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a>
+<a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a><span class="c1"># ✅ Create a new string instead</span>
+<a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;h&quot;</span> <span class="o">+</span> <span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+<a id="__codelineno-28-6" name="__codelineno-28-6" href="#__codelineno-28-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>     <span class="c1"># hello</span>
+</code></pre></div>
+</div>
+<hr />
+<h2 id="sequence-types">📋 Sequence Types<a class="headerlink" href="#sequence-types" title="Permanent link">&para;</a></h2>
+<h3 id="5-list-list">5️⃣ List (<code>list</code>)<a class="headerlink" href="#5-list-list" title="Permanent link">&para;</a></h3>
+<p>An ordered, <strong>mutable</strong> collection of items. Can hold mixed types.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span> <span class="s2">&quot;banana&quot;</span><span class="p">,</span> <span class="s2">&quot;cherry&quot;</span><span class="p">]</span>
+<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a><span class="n">mixed</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;hello&quot;</span><span class="p">,</span> <span class="mf">3.14</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span>
+<a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a><span class="n">nested</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]]</span>
+<a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a>
+<a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+<a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">mixed</span><span class="p">)</span>
+<a id="__codelineno-29-7" name="__codelineno-29-7" href="#__codelineno-29-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>     <span class="c1"># apple</span>
+<a id="__codelineno-29-8" name="__codelineno-29-8" href="#__codelineno-29-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>    <span class="c1"># cherry</span>
+<a id="__codelineno-29-9" name="__codelineno-29-9" href="#__codelineno-29-9"></a><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">fruits</span><span class="p">))</span>   <span class="c1"># 3</span>
+<a id="__codelineno-29-10" name="__codelineno-29-10" href="#__codelineno-29-10"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">fruits</span><span class="p">))</span>  <span class="c1"># &lt;class &#39;list&#39;&gt;</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>[&#39;apple&#39;, &#39;banana&#39;, &#39;cherry&#39;]
+<a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a>[1, &#39;hello&#39;, 3.14, True, None]
+<a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a>apple
+<a id="__codelineno-30-4" name="__codelineno-30-4" href="#__codelineno-30-4"></a>cherry
+<a id="__codelineno-30-5" name="__codelineno-30-5" href="#__codelineno-30-5"></a>3
+<a id="__codelineno-30-6" name="__codelineno-30-6" href="#__codelineno-30-6"></a>&lt;class &#39;list&#39;&gt;
+</code></pre></div></p>
+<p><strong>Memory Visualization</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]
+<a id="__codelineno-31-2" name="__codelineno-31-2" href="#__codelineno-31-2"></a>
+<a id="__codelineno-31-3" name="__codelineno-31-3" href="#__codelineno-31-3"></a>List object:
+<a id="__codelineno-31-4" name="__codelineno-31-4" href="#__codelineno-31-4"></a>┌──────────┬──────────┬──────────┐
+<a id="__codelineno-31-5" name="__codelineno-31-5" href="#__codelineno-31-5"></a>│  ref[0]  │  ref[1]  │  ref[2]  │
+<a id="__codelineno-31-6" name="__codelineno-31-6" href="#__codelineno-31-6"></a>└────┬─────┴────┬─────┴────┬─────┘
+<a id="__codelineno-31-7" name="__codelineno-31-7" href="#__codelineno-31-7"></a>     │          │          │
+<a id="__codelineno-31-8" name="__codelineno-31-8" href="#__codelineno-31-8"></a>     ▼          ▼          ▼
+<a id="__codelineno-31-9" name="__codelineno-31-9" href="#__codelineno-31-9"></a> &quot;apple&quot;    &quot;banana&quot;   &quot;cherry&quot;
+<a id="__codelineno-31-10" name="__codelineno-31-10" href="#__codelineno-31-10"></a>
+<a id="__codelineno-31-11" name="__codelineno-31-11" href="#__codelineno-31-11"></a>Lists store references (pointers) to objects, not the objects themselves!
+</code></pre></div>
+<p><strong>Common List Operations</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span> <span class="s2">&quot;banana&quot;</span><span class="p">,</span> <span class="s2">&quot;cherry&quot;</span><span class="p">]</span>
+<a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a>
+<a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a><span class="n">fruits</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;mango&quot;</span><span class="p">)</span>       <span class="c1"># Add to end</span>
+<a id="__codelineno-32-4" name="__codelineno-32-4" href="#__codelineno-32-4"></a><span class="n">fruits</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;kiwi&quot;</span><span class="p">)</span>     <span class="c1"># Insert at index</span>
+<a id="__codelineno-32-5" name="__codelineno-32-5" href="#__codelineno-32-5"></a><span class="n">fruits</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s2">&quot;banana&quot;</span><span class="p">)</span>      <span class="c1"># Remove by value</span>
+<a id="__codelineno-32-6" name="__codelineno-32-6" href="#__codelineno-32-6"></a><span class="n">popped</span> <span class="o">=</span> <span class="n">fruits</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>        <span class="c1"># Remove &amp; return last</span>
+<a id="__codelineno-32-7" name="__codelineno-32-7" href="#__codelineno-32-7"></a><span class="n">fruits</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>                <span class="c1"># Sort in place</span>
+<a id="__codelineno-32-8" name="__codelineno-32-8" href="#__codelineno-32-8"></a><span class="n">fruits</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>             <span class="c1"># Reverse in place</span>
+<a id="__codelineno-32-9" name="__codelineno-32-9" href="#__codelineno-32-9"></a>
+<a id="__codelineno-32-10" name="__codelineno-32-10" href="#__codelineno-32-10"></a><span class="nb">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+<a id="__codelineno-32-11" name="__codelineno-32-11" href="#__codelineno-32-11"></a><span class="nb">print</span><span class="p">(</span><span class="n">popped</span><span class="p">)</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>[&#39;cherry&#39;, &#39;apple&#39;, &#39;kiwi&#39;]
+<a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a>mango
+</code></pre></div></p>
+<hr />
+<h3 id="6-tuple-tuple">6️⃣ Tuple (<code>tuple</code>)<a class="headerlink" href="#6-tuple-tuple" title="Permanent link">&para;</a></h3>
+<p>An ordered, <strong>immutable</strong> sequence. Faster than lists.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="n">point</span> <span class="o">=</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a><span class="n">rgb</span> <span class="o">=</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">128</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a><span class="n">single</span> <span class="o">=</span> <span class="p">(</span><span class="mi">42</span><span class="p">,)</span>         <span class="c1"># Single element — note the comma!</span>
+<a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a><span class="n">empty</span> <span class="o">=</span> <span class="p">()</span>
+<a id="__codelineno-34-5" name="__codelineno-34-5" href="#__codelineno-34-5"></a>
+<a id="__codelineno-34-6" name="__codelineno-34-6" href="#__codelineno-34-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">point</span><span class="p">)</span>
+<a id="__codelineno-34-7" name="__codelineno-34-7" href="#__codelineno-34-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">rgb</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>          <span class="c1"># 255</span>
+<a id="__codelineno-34-8" name="__codelineno-34-8" href="#__codelineno-34-8"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">point</span><span class="p">))</span>     <span class="c1"># &lt;class &#39;tuple&#39;&gt;</span>
+<a id="__codelineno-34-9" name="__codelineno-34-9" href="#__codelineno-34-9"></a>
+<a id="__codelineno-34-10" name="__codelineno-34-10" href="#__codelineno-34-10"></a><span class="c1"># Tuple unpacking</span>
+<a id="__codelineno-34-11" name="__codelineno-34-11" href="#__codelineno-34-11"></a><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">point</span>
+<a id="__codelineno-34-12" name="__codelineno-34-12" href="#__codelineno-34-12"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;x=</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2">, y=</span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>(3, 4)
+<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a>255
+<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a>&lt;class &#39;tuple&#39;&gt;
+<a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a>x=3, y=4
+</code></pre></div></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Tuple vs List</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Tuple</th>
+<th>List</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mutable</td>
+<td>❌ No</td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td>Syntax</td>
+<td><code>(1, 2)</code></td>
+<td><code>[1, 2]</code></td>
+</tr>
+<tr>
+<td>Speed</td>
+<td>Faster</td>
+<td>Slower</td>
+</tr>
+<tr>
+<td>Use case</td>
+<td>Fixed data</td>
+<td>Dynamic data</td>
+</tr>
+<tr>
+<td>Hashable</td>
+<td>✅ Yes</td>
+<td>❌ No</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">When to Use Tuples</p>
+<p>Use tuples for data that should <strong>never change</strong>: coordinates, RGB values, database records, dictionary keys.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Common Mistake</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="n">single</span> <span class="o">=</span> <span class="p">(</span><span class="mi">42</span><span class="p">)</span>    <span class="c1"># ❌ This is just int 42!</span>
+<a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a><span class="n">single</span> <span class="o">=</span> <span class="p">(</span><span class="mi">42</span><span class="p">,)</span>   <span class="c1"># ✅ This is a tuple with one element</span>
+<a id="__codelineno-36-3" name="__codelineno-36-3" href="#__codelineno-36-3"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">((</span><span class="mi">42</span><span class="p">)))</span>   <span class="c1"># &lt;class &#39;int&#39;&gt;</span>
+<a id="__codelineno-36-4" name="__codelineno-36-4" href="#__codelineno-36-4"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">((</span><span class="mi">42</span><span class="p">,)))</span>  <span class="c1"># &lt;class &#39;tuple&#39;&gt;</span>
+</code></pre></div>
+</div>
+<hr />
+<h2 id="set-types">🔣 Set Types<a class="headerlink" href="#set-types" title="Permanent link">&para;</a></h2>
+<h3 id="7-set-set">7️⃣ Set (<code>set</code>)<a class="headerlink" href="#7-set-set" title="Permanent link">&para;</a></h3>
+<p>An <strong>unordered</strong> collection of <strong>unique</strong> elements.</p>
+<div class="admonition info">
+<p class="admonition-title">Real-Life Example</p>
+<p>A set is like a bag where duplicates are automatically removed. Perfect for membership testing and removing duplicates.</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a><span class="n">fruits</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span> <span class="s2">&quot;banana&quot;</span><span class="p">,</span> <span class="s2">&quot;cherry&quot;</span><span class="p">,</span> <span class="s2">&quot;apple&quot;</span><span class="p">}</span>  <span class="c1"># duplicate removed</span>
+<a id="__codelineno-37-2" name="__codelineno-37-2" href="#__codelineno-37-2"></a><span class="n">numbers</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">}</span>
+<a id="__codelineno-37-3" name="__codelineno-37-3" href="#__codelineno-37-3"></a><span class="n">empty_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>    <span class="c1"># NOT {} — that creates a dict!</span>
+<a id="__codelineno-37-4" name="__codelineno-37-4" href="#__codelineno-37-4"></a>
+<a id="__codelineno-37-5" name="__codelineno-37-5" href="#__codelineno-37-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>        <span class="c1"># order not guaranteed</span>
+<a id="__codelineno-37-6" name="__codelineno-37-6" href="#__codelineno-37-6"></a><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">fruits</span><span class="p">))</span>   <span class="c1"># 3 (not 4)</span>
+<a id="__codelineno-37-7" name="__codelineno-37-7" href="#__codelineno-37-7"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;apple&quot;</span> <span class="ow">in</span> <span class="n">fruits</span><span class="p">)</span>   <span class="c1"># True</span>
+<a id="__codelineno-37-8" name="__codelineno-37-8" href="#__codelineno-37-8"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">fruits</span><span class="p">))</span>  <span class="c1"># &lt;class &#39;set&#39;&gt;</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a>{&#39;banana&#39;, &#39;cherry&#39;, &#39;apple&#39;}
+<a id="__codelineno-38-2" name="__codelineno-38-2" href="#__codelineno-38-2"></a>3
+<a id="__codelineno-38-3" name="__codelineno-38-3" href="#__codelineno-38-3"></a>True
+<a id="__codelineno-38-4" name="__codelineno-38-4" href="#__codelineno-38-4"></a>&lt;class &#39;set&#39;&gt;
+</code></pre></div></p>
+<p><strong>Set Operations</strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:4"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><input id="__tabbed_5_3" name="__tabbed_5" type="radio" /><input id="__tabbed_5_4" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Union</label><label for="__tabbed_5_2">Intersection</label><label for="__tabbed_5_3">Difference</label><label for="__tabbed_5_4">Symmetric Difference</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a><span class="n">A</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">}</span>
+<a id="__codelineno-39-2" name="__codelineno-39-2" href="#__codelineno-39-2"></a><span class="n">B</span> <span class="o">=</span> <span class="p">{</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">}</span>
+<a id="__codelineno-39-3" name="__codelineno-39-3" href="#__codelineno-39-3"></a>
+<a id="__codelineno-39-4" name="__codelineno-39-4" href="#__codelineno-39-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">A</span> <span class="o">|</span> <span class="n">B</span><span class="p">)</span>         <span class="c1"># {1, 2, 3, 4, 5}</span>
+<a id="__codelineno-39-5" name="__codelineno-39-5" href="#__codelineno-39-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">union</span><span class="p">(</span><span class="n">B</span><span class="p">))</span>    <span class="c1"># {1, 2, 3, 4, 5}</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-40-1" name="__codelineno-40-1" href="#__codelineno-40-1"></a><span class="n">A</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">}</span>
+<a id="__codelineno-40-2" name="__codelineno-40-2" href="#__codelineno-40-2"></a><span class="n">B</span> <span class="o">=</span> <span class="p">{</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">}</span>
+<a id="__codelineno-40-3" name="__codelineno-40-3" href="#__codelineno-40-3"></a>
+<a id="__codelineno-40-4" name="__codelineno-40-4" href="#__codelineno-40-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">A</span> <span class="o">&amp;</span> <span class="n">B</span><span class="p">)</span>              <span class="c1"># {3}</span>
+<a id="__codelineno-40-5" name="__codelineno-40-5" href="#__codelineno-40-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="n">B</span><span class="p">))</span>  <span class="c1"># {3}</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-41-1" name="__codelineno-41-1" href="#__codelineno-41-1"></a><span class="n">A</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">}</span>
+<a id="__codelineno-41-2" name="__codelineno-41-2" href="#__codelineno-41-2"></a><span class="n">B</span> <span class="o">=</span> <span class="p">{</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">}</span>
+<a id="__codelineno-41-3" name="__codelineno-41-3" href="#__codelineno-41-3"></a>
+<a id="__codelineno-41-4" name="__codelineno-41-4" href="#__codelineno-41-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">A</span> <span class="o">-</span> <span class="n">B</span><span class="p">)</span>           <span class="c1"># {1, 2}</span>
+<a id="__codelineno-41-5" name="__codelineno-41-5" href="#__codelineno-41-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">difference</span><span class="p">(</span><span class="n">B</span><span class="p">))</span> <span class="c1"># {1, 2}</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-42-1" name="__codelineno-42-1" href="#__codelineno-42-1"></a><span class="n">A</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">}</span>
+<a id="__codelineno-42-2" name="__codelineno-42-2" href="#__codelineno-42-2"></a><span class="n">B</span> <span class="o">=</span> <span class="p">{</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">}</span>
+<a id="__codelineno-42-3" name="__codelineno-42-3" href="#__codelineno-42-3"></a>
+<a id="__codelineno-42-4" name="__codelineno-42-4" href="#__codelineno-42-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">A</span> <span class="o">^</span> <span class="n">B</span><span class="p">)</span>                        <span class="c1"># {1, 2, 4, 5}</span>
+<a id="__codelineno-42-5" name="__codelineno-42-5" href="#__codelineno-42-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">symmetric_difference</span><span class="p">(</span><span class="n">B</span><span class="p">))</span>    <span class="c1"># {1, 2, 4, 5}</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p><strong>Practical: Remove Duplicates</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-43-1" name="__codelineno-43-1" href="#__codelineno-43-1"></a><span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Alice&quot;</span><span class="p">,</span> <span class="s2">&quot;Bob&quot;</span><span class="p">,</span> <span class="s2">&quot;Alice&quot;</span><span class="p">,</span> <span class="s2">&quot;Charlie&quot;</span><span class="p">,</span> <span class="s2">&quot;Bob&quot;</span><span class="p">]</span>
+<a id="__codelineno-43-2" name="__codelineno-43-2" href="#__codelineno-43-2"></a><span class="n">unique</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">names</span><span class="p">))</span>
+<a id="__codelineno-43-3" name="__codelineno-43-3" href="#__codelineno-43-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">unique</span><span class="p">)</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-44-1" name="__codelineno-44-1" href="#__codelineno-44-1"></a>[&#39;Charlie&#39;, &#39;Alice&#39;, &#39;Bob&#39;]
+</code></pre></div></p>
+<hr />
+<h2 id="mapping-type">🗂️ Mapping Type<a class="headerlink" href="#mapping-type" title="Permanent link">&para;</a></h2>
+<h3 id="8-dictionary-dict">8️⃣ Dictionary (<code>dict</code>)<a class="headerlink" href="#8-dictionary-dict" title="Permanent link">&para;</a></h3>
+<p>An <strong>unordered</strong> collection of <strong>key-value pairs</strong>. Keys must be unique and hashable.</p>
+<div class="admonition info">
+<p class="admonition-title">Real-Life Example</p>
+<p>A dictionary is like a phone book 📖 — you look up a name (key) to get a phone number (value).</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a><span class="n">student</span> <span class="o">=</span> <span class="p">{</span>
+<a id="__codelineno-45-2" name="__codelineno-45-2" href="#__codelineno-45-2"></a>    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Alice&quot;</span><span class="p">,</span>
+<a id="__codelineno-45-3" name="__codelineno-45-3" href="#__codelineno-45-3"></a>    <span class="s2">&quot;age&quot;</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+<a id="__codelineno-45-4" name="__codelineno-45-4" href="#__codelineno-45-4"></a>    <span class="s2">&quot;gpa&quot;</span><span class="p">:</span> <span class="mf">3.8</span><span class="p">,</span>
+<a id="__codelineno-45-5" name="__codelineno-45-5" href="#__codelineno-45-5"></a>    <span class="s2">&quot;courses&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Math&quot;</span><span class="p">,</span> <span class="s2">&quot;CS&quot;</span><span class="p">,</span> <span class="s2">&quot;Physics&quot;</span><span class="p">]</span>
+<a id="__codelineno-45-6" name="__codelineno-45-6" href="#__codelineno-45-6"></a><span class="p">}</span>
+<a id="__codelineno-45-7" name="__codelineno-45-7" href="#__codelineno-45-7"></a>
+<a id="__codelineno-45-8" name="__codelineno-45-8" href="#__codelineno-45-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">student</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">])</span>           <span class="c1"># Alice</span>
+<a id="__codelineno-45-9" name="__codelineno-45-9" href="#__codelineno-45-9"></a><span class="nb">print</span><span class="p">(</span><span class="n">student</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;age&quot;</span><span class="p">))</span>        <span class="c1"># 20</span>
+<a id="__codelineno-45-10" name="__codelineno-45-10" href="#__codelineno-45-10"></a><span class="nb">print</span><span class="p">(</span><span class="n">student</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;grade&quot;</span><span class="p">,</span> <span class="s2">&quot;N/A&quot;</span><span class="p">))</span>  <span class="c1"># N/A (default if missing)</span>
+<a id="__codelineno-45-11" name="__codelineno-45-11" href="#__codelineno-45-11"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">student</span><span class="p">))</span>             <span class="c1"># &lt;class &#39;dict&#39;&gt;</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-46-1" name="__codelineno-46-1" href="#__codelineno-46-1"></a>Alice
+<a id="__codelineno-46-2" name="__codelineno-46-2" href="#__codelineno-46-2"></a>20
+<a id="__codelineno-46-3" name="__codelineno-46-3" href="#__codelineno-46-3"></a>N/A
+<a id="__codelineno-46-4" name="__codelineno-46-4" href="#__codelineno-46-4"></a>&lt;class &#39;dict&#39;&gt;
+</code></pre></div></p>
+<p><strong>Memory Visualization</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-47-1" name="__codelineno-47-1" href="#__codelineno-47-1"></a>student = {&quot;name&quot;: &quot;Alice&quot;, &quot;age&quot;: 20}
+<a id="__codelineno-47-2" name="__codelineno-47-2" href="#__codelineno-47-2"></a>
+<a id="__codelineno-47-3" name="__codelineno-47-3" href="#__codelineno-47-3"></a>Hash Table:
+<a id="__codelineno-47-4" name="__codelineno-47-4" href="#__codelineno-47-4"></a>┌──────────┬──────────────┐
+<a id="__codelineno-47-5" name="__codelineno-47-5" href="#__codelineno-47-5"></a>│   Key    │    Value     │
+<a id="__codelineno-47-6" name="__codelineno-47-6" href="#__codelineno-47-6"></a>├──────────┼──────────────┤
+<a id="__codelineno-47-7" name="__codelineno-47-7" href="#__codelineno-47-7"></a>│ &quot;name&quot;   │   &quot;Alice&quot;   │
+<a id="__codelineno-47-8" name="__codelineno-47-8" href="#__codelineno-47-8"></a>├──────────┼──────────────┤
+<a id="__codelineno-47-9" name="__codelineno-47-9" href="#__codelineno-47-9"></a>│ &quot;age&quot;    │     20      │
+<a id="__codelineno-47-10" name="__codelineno-47-10" href="#__codelineno-47-10"></a>└──────────┴──────────────┘
+<a id="__codelineno-47-11" name="__codelineno-47-11" href="#__codelineno-47-11"></a>
+<a id="__codelineno-47-12" name="__codelineno-47-12" href="#__codelineno-47-12"></a>Keys are hashed for O(1) average lookup!
+</code></pre></div>
+<p><strong>Common Dict Operations</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-48-1" name="__codelineno-48-1" href="#__codelineno-48-1"></a><span class="n">student</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Alice&quot;</span><span class="p">,</span> <span class="s2">&quot;age&quot;</span><span class="p">:</span> <span class="mi">20</span><span class="p">}</span>
+<a id="__codelineno-48-2" name="__codelineno-48-2" href="#__codelineno-48-2"></a>
+<a id="__codelineno-48-3" name="__codelineno-48-3" href="#__codelineno-48-3"></a><span class="c1"># Add / Update</span>
+<a id="__codelineno-48-4" name="__codelineno-48-4" href="#__codelineno-48-4"></a><span class="n">student</span><span class="p">[</span><span class="s2">&quot;gpa&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mf">3.8</span>
+<a id="__codelineno-48-5" name="__codelineno-48-5" href="#__codelineno-48-5"></a><span class="n">student</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s2">&quot;age&quot;</span><span class="p">:</span> <span class="mi">21</span><span class="p">,</span> <span class="s2">&quot;city&quot;</span><span class="p">:</span> <span class="s2">&quot;NY&quot;</span><span class="p">})</span>
+<a id="__codelineno-48-6" name="__codelineno-48-6" href="#__codelineno-48-6"></a>
+<a id="__codelineno-48-7" name="__codelineno-48-7" href="#__codelineno-48-7"></a><span class="c1"># Remove</span>
+<a id="__codelineno-48-8" name="__codelineno-48-8" href="#__codelineno-48-8"></a><span class="k">del</span> <span class="n">student</span><span class="p">[</span><span class="s2">&quot;city&quot;</span><span class="p">]</span>
+<a id="__codelineno-48-9" name="__codelineno-48-9" href="#__codelineno-48-9"></a><span class="n">popped</span> <span class="o">=</span> <span class="n">student</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s2">&quot;gpa&quot;</span><span class="p">)</span>
+<a id="__codelineno-48-10" name="__codelineno-48-10" href="#__codelineno-48-10"></a>
+<a id="__codelineno-48-11" name="__codelineno-48-11" href="#__codelineno-48-11"></a><span class="c1"># Iterate</span>
+<a id="__codelineno-48-12" name="__codelineno-48-12" href="#__codelineno-48-12"></a><span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">student</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+<a id="__codelineno-48-13" name="__codelineno-48-13" href="#__codelineno-48-13"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">key</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">value</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-48-14" name="__codelineno-48-14" href="#__codelineno-48-14"></a>
+<a id="__codelineno-48-15" name="__codelineno-48-15" href="#__codelineno-48-15"></a><span class="c1"># Keys, Values, Items</span>
+<a id="__codelineno-48-16" name="__codelineno-48-16" href="#__codelineno-48-16"></a><span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">student</span><span class="o">.</span><span class="n">keys</span><span class="p">()))</span>    <span class="c1"># [&#39;name&#39;, &#39;age&#39;]</span>
+<a id="__codelineno-48-17" name="__codelineno-48-17" href="#__codelineno-48-17"></a><span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">student</span><span class="o">.</span><span class="n">values</span><span class="p">()))</span>  <span class="c1"># [&#39;Alice&#39;, 21]</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-49-1" name="__codelineno-49-1" href="#__codelineno-49-1"></a>name: Alice
+<a id="__codelineno-49-2" name="__codelineno-49-2" href="#__codelineno-49-2"></a>age: 21
+<a id="__codelineno-49-3" name="__codelineno-49-3" href="#__codelineno-49-3"></a>[&#39;name&#39;, &#39;age&#39;]
+<a id="__codelineno-49-4" name="__codelineno-49-4" href="#__codelineno-49-4"></a>[&#39;Alice&#39;, 21]
+</code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">KeyError</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-50-1" name="__codelineno-50-1" href="#__codelineno-50-1"></a><span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Alice&quot;</span><span class="p">}</span>
+<a id="__codelineno-50-2" name="__codelineno-50-2" href="#__codelineno-50-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">d</span><span class="p">[</span><span class="s2">&quot;age&quot;</span><span class="p">])</span>          <span class="c1"># ❌ KeyError: &#39;age&#39;</span>
+<a id="__codelineno-50-3" name="__codelineno-50-3" href="#__codelineno-50-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;age&quot;</span><span class="p">))</span>      <span class="c1"># ✅ None (no error)</span>
+<a id="__codelineno-50-4" name="__codelineno-50-4" href="#__codelineno-50-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;age&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>   <span class="c1"># ✅ 0 (default value)</span>
+</code></pre></div>
+</div>
+<hr />
+<h2 id="boolean-type">✔️ Boolean Type<a class="headerlink" href="#boolean-type" title="Permanent link">&para;</a></h2>
+<h3 id="9-boolean-bool">9️⃣ Boolean (<code>bool</code>)<a class="headerlink" href="#9-boolean-bool" title="Permanent link">&para;</a></h3>
+<p>Stores <code>True</code> or <code>False</code>. A subclass of <code>int</code> in Python.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-51-1" name="__codelineno-51-1" href="#__codelineno-51-1"></a><span class="n">is_raining</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-51-2" name="__codelineno-51-2" href="#__codelineno-51-2"></a><span class="n">is_sunny</span> <span class="o">=</span> <span class="kc">False</span>
+<a id="__codelineno-51-3" name="__codelineno-51-3" href="#__codelineno-51-3"></a>
+<a id="__codelineno-51-4" name="__codelineno-51-4" href="#__codelineno-51-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">is_raining</span><span class="p">)</span>
+<a id="__codelineno-51-5" name="__codelineno-51-5" href="#__codelineno-51-5"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">is_raining</span><span class="p">))</span>   <span class="c1"># &lt;class &#39;bool&#39;&gt;</span>
+<a id="__codelineno-51-6" name="__codelineno-51-6" href="#__codelineno-51-6"></a>
+<a id="__codelineno-51-7" name="__codelineno-51-7" href="#__codelineno-51-7"></a><span class="c1"># bool is a subclass of int</span>
+<a id="__codelineno-51-8" name="__codelineno-51-8" href="#__codelineno-51-8"></a><span class="nb">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="kc">True</span><span class="p">))</span>    <span class="c1"># 1</span>
+<a id="__codelineno-51-9" name="__codelineno-51-9" href="#__codelineno-51-9"></a><span class="nb">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="kc">False</span><span class="p">))</span>   <span class="c1"># 0</span>
+<a id="__codelineno-51-10" name="__codelineno-51-10" href="#__codelineno-51-10"></a><span class="nb">print</span><span class="p">(</span><span class="kc">True</span> <span class="o">+</span> <span class="kc">True</span><span class="p">)</span>  <span class="c1"># 2</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-52-1" name="__codelineno-52-1" href="#__codelineno-52-1"></a>True
+<a id="__codelineno-52-2" name="__codelineno-52-2" href="#__codelineno-52-2"></a>&lt;class &#39;bool&#39;&gt;
+<a id="__codelineno-52-3" name="__codelineno-52-3" href="#__codelineno-52-3"></a>1
+<a id="__codelineno-52-4" name="__codelineno-52-4" href="#__codelineno-52-4"></a>0
+<a id="__codelineno-52-5" name="__codelineno-52-5" href="#__codelineno-52-5"></a>2
+</code></pre></div></p>
+<p><strong>Truthy and Falsy Values</strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">Falsy Values</label><label for="__tabbed_6_2">Truthy Values</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-53-1" name="__codelineno-53-1" href="#__codelineno-53-1"></a><span class="c1"># All of these are False in a boolean context</span>
+<a id="__codelineno-53-2" name="__codelineno-53-2" href="#__codelineno-53-2"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>        <span class="c1"># False</span>
+<a id="__codelineno-53-3" name="__codelineno-53-3" href="#__codelineno-53-3"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="mf">0.0</span><span class="p">))</span>      <span class="c1"># False</span>
+<a id="__codelineno-53-4" name="__codelineno-53-4" href="#__codelineno-53-4"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">))</span>       <span class="c1"># False</span>
+<a id="__codelineno-53-5" name="__codelineno-53-5" href="#__codelineno-53-5"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">([]))</span>       <span class="c1"># False</span>
+<a id="__codelineno-53-6" name="__codelineno-53-6" href="#__codelineno-53-6"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">({}))</span>       <span class="c1"># False</span>
+<a id="__codelineno-53-7" name="__codelineno-53-7" href="#__codelineno-53-7"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="kc">None</span><span class="p">))</span>     <span class="c1"># False</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-54-1" name="__codelineno-54-1" href="#__codelineno-54-1"></a><span class="c1"># All of these are True in a boolean context</span>
+<a id="__codelineno-54-2" name="__codelineno-54-2" href="#__codelineno-54-2"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>         <span class="c1"># True</span>
+<a id="__codelineno-54-3" name="__codelineno-54-3" href="#__codelineno-54-3"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>        <span class="c1"># True</span>
+<a id="__codelineno-54-4" name="__codelineno-54-4" href="#__codelineno-54-4"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">))</span>   <span class="c1"># True</span>
+<a id="__codelineno-54-5" name="__codelineno-54-5" href="#__codelineno-54-5"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">([</span><span class="mi">0</span><span class="p">]))</span>       <span class="c1"># True</span>
+<a id="__codelineno-54-6" name="__codelineno-54-6" href="#__codelineno-54-6"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">({</span><span class="s2">&quot;a&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">}))</span>  <span class="c1"># True</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-55-1" name="__codelineno-55-1" href="#__codelineno-55-1"></a><span class="c1"># Practical use</span>
+<a id="__codelineno-55-2" name="__codelineno-55-2" href="#__codelineno-55-2"></a><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+<a id="__codelineno-55-3" name="__codelineno-55-3" href="#__codelineno-55-3"></a><span class="k">if</span> <span class="ow">not</span> <span class="n">name</span><span class="p">:</span>
+<a id="__codelineno-55-4" name="__codelineno-55-4" href="#__codelineno-55-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Name is empty!&quot;</span><span class="p">)</span>   <span class="c1"># This prints</span>
+<a id="__codelineno-55-5" name="__codelineno-55-5" href="#__codelineno-55-5"></a>
+<a id="__codelineno-55-6" name="__codelineno-55-6" href="#__codelineno-55-6"></a><span class="n">items</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<a id="__codelineno-55-7" name="__codelineno-55-7" href="#__codelineno-55-7"></a><span class="k">if</span> <span class="n">items</span><span class="p">:</span>
+<a id="__codelineno-55-8" name="__codelineno-55-8" href="#__codelineno-55-8"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;List has items!&quot;</span><span class="p">)</span>  <span class="c1"># This prints</span>
+</code></pre></div>
+<hr />
+<h2 id="none-type">🚫 None Type<a class="headerlink" href="#none-type" title="Permanent link">&para;</a></h2>
+<h3 id="nonetype-none">🔟 NoneType (<code>None</code>)<a class="headerlink" href="#nonetype-none" title="Permanent link">&para;</a></h3>
+<p>Represents the <strong>absence of a value</strong>. Similar to <code>null</code> in other languages.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-56-1" name="__codelineno-56-1" href="#__codelineno-56-1"></a><span class="n">result</span> <span class="o">=</span> <span class="kc">None</span>
+<a id="__codelineno-56-2" name="__codelineno-56-2" href="#__codelineno-56-2"></a><span class="n">name</span> <span class="o">=</span> <span class="kc">None</span>
+<a id="__codelineno-56-3" name="__codelineno-56-3" href="#__codelineno-56-3"></a>
+<a id="__codelineno-56-4" name="__codelineno-56-4" href="#__codelineno-56-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>           <span class="c1"># None</span>
+<a id="__codelineno-56-5" name="__codelineno-56-5" href="#__codelineno-56-5"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>     <span class="c1"># &lt;class &#39;NoneType&#39;&gt;</span>
+<a id="__codelineno-56-6" name="__codelineno-56-6" href="#__codelineno-56-6"></a>
+<a id="__codelineno-56-7" name="__codelineno-56-7" href="#__codelineno-56-7"></a><span class="c1"># Always use &#39;is&#39; to check for None</span>
+<a id="__codelineno-56-8" name="__codelineno-56-8" href="#__codelineno-56-8"></a><span class="k">if</span> <span class="n">result</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+<a id="__codelineno-56-9" name="__codelineno-56-9" href="#__codelineno-56-9"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No result yet!&quot;</span><span class="p">)</span>
+<a id="__codelineno-56-10" name="__codelineno-56-10" href="#__codelineno-56-10"></a>
+<a id="__codelineno-56-11" name="__codelineno-56-11" href="#__codelineno-56-11"></a><span class="k">if</span> <span class="n">result</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+<a id="__codelineno-56-12" name="__codelineno-56-12" href="#__codelineno-56-12"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Got a result!&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-57-1" name="__codelineno-57-1" href="#__codelineno-57-1"></a>None
+<a id="__codelineno-57-2" name="__codelineno-57-2" href="#__codelineno-57-2"></a>&lt;class &#39;NoneType&#39;&gt;
+<a id="__codelineno-57-3" name="__codelineno-57-3" href="#__codelineno-57-3"></a>No result yet!
+</code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">Use <code>is</code>, not <code>==</code></p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-58-1" name="__codelineno-58-1" href="#__codelineno-58-1"></a><span class="n">x</span> <span class="o">=</span> <span class="kc">None</span>
+<a id="__codelineno-58-2" name="__codelineno-58-2" href="#__codelineno-58-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="kc">None</span><span class="p">)</span>    <span class="c1"># True (works but not recommended)</span>
+<a id="__codelineno-58-3" name="__codelineno-58-3" href="#__codelineno-58-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)</span>    <span class="c1"># True ✅ (correct way)</span>
+</code></pre></div>
+<code>is</code> checks identity (same object), <code>==</code> checks equality.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Common Use Case</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-59-1" name="__codelineno-59-1" href="#__codelineno-59-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">find_user</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+<a id="__codelineno-59-2" name="__codelineno-59-2" href="#__codelineno-59-2"></a>    <span class="c1"># ...search logic...</span>
+<a id="__codelineno-59-3" name="__codelineno-59-3" href="#__codelineno-59-3"></a>    <span class="k">return</span> <span class="kc">None</span>   <span class="c1"># Return None if not found</span>
+<a id="__codelineno-59-4" name="__codelineno-59-4" href="#__codelineno-59-4"></a>
+<a id="__codelineno-59-5" name="__codelineno-59-5" href="#__codelineno-59-5"></a><span class="n">user</span> <span class="o">=</span> <span class="n">find_user</span><span class="p">(</span><span class="s2">&quot;Alice&quot;</span><span class="p">)</span>
+<a id="__codelineno-59-6" name="__codelineno-59-6" href="#__codelineno-59-6"></a><span class="k">if</span> <span class="n">user</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+<a id="__codelineno-59-7" name="__codelineno-59-7" href="#__codelineno-59-7"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;User not found&quot;</span><span class="p">)</span>
+</code></pre></div>
+</div>
+<hr />
+<h2 id="type-conversion">🔄 Type Conversion<a class="headerlink" href="#type-conversion" title="Permanent link">&para;</a></h2>
+<h3 id="implicit-conversion-automatic">Implicit Conversion (Automatic)<a class="headerlink" href="#implicit-conversion-automatic" title="Permanent link">&para;</a></h3>
+<p>Python automatically converts types when safe to do so.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-60-1" name="__codelineno-60-1" href="#__codelineno-60-1"></a><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>      <span class="c1"># int</span>
+<a id="__codelineno-60-2" name="__codelineno-60-2" href="#__codelineno-60-2"></a><span class="n">y</span> <span class="o">=</span> <span class="mf">3.14</span>    <span class="c1"># float</span>
+<a id="__codelineno-60-3" name="__codelineno-60-3" href="#__codelineno-60-3"></a>
+<a id="__codelineno-60-4" name="__codelineno-60-4" href="#__codelineno-60-4"></a><span class="n">result</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+<a id="__codelineno-60-5" name="__codelineno-60-5" href="#__codelineno-60-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>         <span class="c1"># 13.14</span>
+<a id="__codelineno-60-6" name="__codelineno-60-6" href="#__codelineno-60-6"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>   <span class="c1"># &lt;class &#39;float&#39;&gt;  ← int promoted to float</span>
+</code></pre></div>
+<h3 id="explicit-conversion-casting">Explicit Conversion (Casting)<a class="headerlink" href="#explicit-conversion-casting" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-61-1" name="__codelineno-61-1" href="#__codelineno-61-1"></a><span class="c1"># int()</span>
+<a id="__codelineno-61-2" name="__codelineno-61-2" href="#__codelineno-61-2"></a><span class="nb">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="mf">3.9</span><span class="p">))</span>       <span class="c1"># 3   (truncates decimal)</span>
+<a id="__codelineno-61-3" name="__codelineno-61-3" href="#__codelineno-61-3"></a><span class="nb">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="s2">&quot;42&quot;</span><span class="p">))</span>      <span class="c1"># 42</span>
+<a id="__codelineno-61-4" name="__codelineno-61-4" href="#__codelineno-61-4"></a><span class="nb">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="kc">True</span><span class="p">))</span>      <span class="c1"># 1</span>
+<a id="__codelineno-61-5" name="__codelineno-61-5" href="#__codelineno-61-5"></a>
+<a id="__codelineno-61-6" name="__codelineno-61-6" href="#__codelineno-61-6"></a><span class="c1"># float()</span>
+<a id="__codelineno-61-7" name="__codelineno-61-7" href="#__codelineno-61-7"></a><span class="nb">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>      <span class="c1"># 10.0</span>
+<a id="__codelineno-61-8" name="__codelineno-61-8" href="#__codelineno-61-8"></a><span class="nb">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="s2">&quot;3.14&quot;</span><span class="p">))</span>  <span class="c1"># 3.14</span>
+<a id="__codelineno-61-9" name="__codelineno-61-9" href="#__codelineno-61-9"></a>
+<a id="__codelineno-61-10" name="__codelineno-61-10" href="#__codelineno-61-10"></a><span class="c1"># str()</span>
+<a id="__codelineno-61-11" name="__codelineno-61-11" href="#__codelineno-61-11"></a><span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="mi">42</span><span class="p">))</span>        <span class="c1"># &quot;42&quot;</span>
+<a id="__codelineno-61-12" name="__codelineno-61-12" href="#__codelineno-61-12"></a><span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="mf">3.14</span><span class="p">))</span>      <span class="c1"># &quot;3.14&quot;</span>
+<a id="__codelineno-61-13" name="__codelineno-61-13" href="#__codelineno-61-13"></a><span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="kc">True</span><span class="p">))</span>      <span class="c1"># &quot;True&quot;</span>
+<a id="__codelineno-61-14" name="__codelineno-61-14" href="#__codelineno-61-14"></a>
+<a id="__codelineno-61-15" name="__codelineno-61-15" href="#__codelineno-61-15"></a><span class="c1"># bool()</span>
+<a id="__codelineno-61-16" name="__codelineno-61-16" href="#__codelineno-61-16"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>        <span class="c1"># False</span>
+<a id="__codelineno-61-17" name="__codelineno-61-17" href="#__codelineno-61-17"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">))</span>  <span class="c1"># True</span>
+<a id="__codelineno-61-18" name="__codelineno-61-18" href="#__codelineno-61-18"></a>
+<a id="__codelineno-61-19" name="__codelineno-61-19" href="#__codelineno-61-19"></a><span class="c1"># list(), tuple(), set()</span>
+<a id="__codelineno-61-20" name="__codelineno-61-20" href="#__codelineno-61-20"></a><span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">))</span>        <span class="c1"># [&#39;h&#39;, &#39;e&#39;, &#39;l&#39;, &#39;l&#39;, &#39;o&#39;]</span>
+<a id="__codelineno-61-21" name="__codelineno-61-21" href="#__codelineno-61-21"></a><span class="nb">print</span><span class="p">(</span><span class="nb">tuple</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]))</span>     <span class="c1"># (1, 2, 3)</span>
+<a id="__codelineno-61-22" name="__codelineno-61-22" href="#__codelineno-61-22"></a><span class="nb">print</span><span class="p">(</span><span class="nb">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]))</span>    <span class="c1"># {1, 2, 3}</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-62-1" name="__codelineno-62-1" href="#__codelineno-62-1"></a>3
+<a id="__codelineno-62-2" name="__codelineno-62-2" href="#__codelineno-62-2"></a>42
+<a id="__codelineno-62-3" name="__codelineno-62-3" href="#__codelineno-62-3"></a>1
+<a id="__codelineno-62-4" name="__codelineno-62-4" href="#__codelineno-62-4"></a>10.0
+<a id="__codelineno-62-5" name="__codelineno-62-5" href="#__codelineno-62-5"></a>3.14
+<a id="__codelineno-62-6" name="__codelineno-62-6" href="#__codelineno-62-6"></a>42
+<a id="__codelineno-62-7" name="__codelineno-62-7" href="#__codelineno-62-7"></a>3.14
+<a id="__codelineno-62-8" name="__codelineno-62-8" href="#__codelineno-62-8"></a>True
+<a id="__codelineno-62-9" name="__codelineno-62-9" href="#__codelineno-62-9"></a>False
+<a id="__codelineno-62-10" name="__codelineno-62-10" href="#__codelineno-62-10"></a>True
+<a id="__codelineno-62-11" name="__codelineno-62-11" href="#__codelineno-62-11"></a>[&#39;h&#39;, &#39;e&#39;, &#39;l&#39;, &#39;l&#39;, &#39;o&#39;]
+<a id="__codelineno-62-12" name="__codelineno-62-12" href="#__codelineno-62-12"></a>(1, 2, 3)
+<a id="__codelineno-62-13" name="__codelineno-62-13" href="#__codelineno-62-13"></a>{1, 2, 3}
+</code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">Data Loss in Casting</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-63-1" name="__codelineno-63-1" href="#__codelineno-63-1"></a><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="mf">3.99</span><span class="p">)</span>
+<a id="__codelineno-63-2" name="__codelineno-63-2" href="#__codelineno-63-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>   <span class="c1"># 3  (not 4! — truncates, doesn&#39;t round)</span>
+<a id="__codelineno-63-3" name="__codelineno-63-3" href="#__codelineno-63-3"></a>
+<a id="__codelineno-63-4" name="__codelineno-63-4" href="#__codelineno-63-4"></a><span class="c1"># Use round() if you want rounding</span>
+<a id="__codelineno-63-5" name="__codelineno-63-5" href="#__codelineno-63-5"></a><span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="mf">3.99</span><span class="p">))</span>   <span class="c1"># 4</span>
+</code></pre></div>
+</div>
+<hr />
+<h2 id="type-checking">🔍 Type Checking<a class="headerlink" href="#type-checking" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-64-1" name="__codelineno-64-1" href="#__codelineno-64-1"></a><span class="n">x</span> <span class="o">=</span> <span class="mi">42</span>
+<a id="__codelineno-64-2" name="__codelineno-64-2" href="#__codelineno-64-2"></a><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Alice&quot;</span>
+<a id="__codelineno-64-3" name="__codelineno-64-3" href="#__codelineno-64-3"></a><span class="n">items</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<a id="__codelineno-64-4" name="__codelineno-64-4" href="#__codelineno-64-4"></a>
+<a id="__codelineno-64-5" name="__codelineno-64-5" href="#__codelineno-64-5"></a><span class="c1"># type() — returns exact type</span>
+<a id="__codelineno-64-6" name="__codelineno-64-6" href="#__codelineno-64-6"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>           <span class="c1"># &lt;class &#39;int&#39;&gt;</span>
+<a id="__codelineno-64-7" name="__codelineno-64-7" href="#__codelineno-64-7"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">==</span> <span class="nb">int</span><span class="p">)</span>    <span class="c1"># True</span>
+<a id="__codelineno-64-8" name="__codelineno-64-8" href="#__codelineno-64-8"></a>
+<a id="__codelineno-64-9" name="__codelineno-64-9" href="#__codelineno-64-9"></a><span class="c1"># isinstance() — checks type including subclasses (preferred ✅)</span>
+<a id="__codelineno-64-10" name="__codelineno-64-10" href="#__codelineno-64-10"></a><span class="nb">print</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="nb">int</span><span class="p">))</span>           <span class="c1"># True</span>
+<a id="__codelineno-64-11" name="__codelineno-64-11" href="#__codelineno-64-11"></a><span class="nb">print</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">float</span><span class="p">)))</span>  <span class="c1"># True  (check multiple types)</span>
+<a id="__codelineno-64-12" name="__codelineno-64-12" href="#__codelineno-64-12"></a><span class="nb">print</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="nb">int</span><span class="p">))</span>        <span class="c1"># True  (bool is subclass of int)</span>
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Use <code>isinstance()</code> over <code>type()</code></p>
+<p><code>isinstance()</code> is preferred because it works correctly with inheritance. For example, <code>isinstance(True, int)</code> returns <code>True</code> since <code>bool</code> is a subclass of <code>int</code>.</p>
+</div>
+<hr />
+<h2 id="quick-reference-summary">✅ Quick Reference Summary<a class="headerlink" href="#quick-reference-summary" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Category</th>
+<th>Mutable</th>
+<th>Example</th>
+<th><code>type()</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>int</code></td>
+<td>Numeric</td>
+<td>❌</td>
+<td><code>42</code>, <code>-10</code>, <code>0</code></td>
+<td><code>&lt;class 'int'&gt;</code></td>
+</tr>
+<tr>
+<td><code>float</code></td>
+<td>Numeric</td>
+<td>❌</td>
+<td><code>3.14</code>, <code>-0.5</code></td>
+<td><code>&lt;class 'float'&gt;</code></td>
+</tr>
+<tr>
+<td><code>complex</code></td>
+<td>Numeric</td>
+<td>❌</td>
+<td><code>3+4j</code></td>
+<td><code>&lt;class 'complex'&gt;</code></td>
+</tr>
+<tr>
+<td><code>str</code></td>
+<td>Sequence</td>
+<td>❌</td>
+<td><code>"hello"</code></td>
+<td><code>&lt;class 'str'&gt;</code></td>
+</tr>
+<tr>
+<td><code>list</code></td>
+<td>Sequence</td>
+<td>✅</td>
+<td><code>[1, 2, 3]</code></td>
+<td><code>&lt;class 'list'&gt;</code></td>
+</tr>
+<tr>
+<td><code>tuple</code></td>
+<td>Sequence</td>
+<td>❌</td>
+<td><code>(1, 2, 3)</code></td>
+<td><code>&lt;class 'tuple'&gt;</code></td>
+</tr>
+<tr>
+<td><code>set</code></td>
+<td>Set</td>
+<td>✅</td>
+<td><code>{1, 2, 3}</code></td>
+<td><code>&lt;class 'set'&gt;</code></td>
+</tr>
+<tr>
+<td><code>dict</code></td>
+<td>Mapping</td>
+<td>✅</td>
+<td><code>{"a": 1}</code></td>
+<td><code>&lt;class 'dict'&gt;</code></td>
+</tr>
+<tr>
+<td><code>bool</code></td>
+<td>Boolean</td>
+<td>❌</td>
+<td><code>True</code>, <code>False</code></td>
+<td><code>&lt;class 'bool'&gt;</code></td>
+</tr>
+<tr>
+<td><code>None</code></td>
+<td>NoneType</td>
+<td>❌</td>
+<td><code>None</code></td>
+<td><code>&lt;class 'NoneType'&gt;</code></td>
+</tr>
+</tbody>
+</table>
 
 
 

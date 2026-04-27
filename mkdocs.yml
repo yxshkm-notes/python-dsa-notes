@@ -23,35 +23,36 @@ theme:
 nav:
   - Home: index.md
   - Basics:
-      - Variables & Data Types: Basics/Variables & Data Types.md
-      - Input & Output: Basics/Input & Output.md
-      - Control Flow: Basics/Control Flow (if-else).md
-      - Loops: Basics/Loops.md
-      - Functions: Basics/Functions.md
-      - List Comprehensions: Basics/List Comprehensions.md
-      - Error Handling: Basics/Error Handling.md
-      - Modules & Imports: Basics/Modules & Imports.md
+      - Variables & Data Types: Basics/variables-and-types.md
+      - Control Flow: Basics/control-flow.md
+      - Loops: Basics/loops.md
+      - Functions: Basics/functions.md
+      - List Comprehensions: Basics/list-comprehensions.md
+      - Error Handling: Basics/error-handling.md
+      - Modules & Imports: Basics/modules-and-imports.md
   - Complexity Analysis:
-      - Big O, Big Θ, Big Ω: Complexity Analysis/Big O, Big Θ, Big Ω.md
-      - Time & Space Complexity: Complexity Analysis/Time & Space Complexity.md
+      - "Big O, Big Θ, Big Ω": "Complexity Analysis/Big O, Big Θ, Big Ω.md"
+      - Time & Space Complexity: "Complexity Analysis/Time & Space Complexity.md"
   - Algorithms:
-      - Sorting: Algorithms/Sorting.md
-      - Searching: Algorithms/Searching.md
-      - Recursion & Backtracking: Algorithms/Recursion & Backtracking.md
-      - Dynamic Programming: Algorithms/Dynamic Programming.md
-      - Greedy Algorithms: Algorithms/Greedy Algorithms.md
-      - Graph Algorithms: Algorithms/Graph Algorithms.md
+      - Binary Search: Algorithms/binary-search.md
+      - Bubble Sort: Algorithms/bubble-sort.md
+      - Merge Sort: Algorithms/merge-sort.md
+      - Quick Sort: Algorithms/quick-sort.md
+      - BFS: Algorithms/bfs.md
+      - DFS: Algorithms/dfs.md
+      - Recursion: Algorithms/recursion.md
+      - Dynamic Programming: Algorithms/dynamic-programming.md
   - Data Structures:
-      - Lists: Data Structures/Lists.md
-      - Tuples: Data Structures/Tuples.md
-      - Sets: Data Structures/Sets.md
-      - Dictionaries: Data Structures/Dictionaries.md
-      - Stack: Data Structures/Stack.md
-      - Queue: Data Structures/Queue.md
-      - Linked List: Data Structures/Linked List.md
-      - Trees: Data Structures/Trees.md
-      - Heap: Data Structures/Heap.md
-      - Graphs: Data Structures/Graphs.md
+      - Lists: Data Structures/lists.md
+      - Tuples: Data Structures/tuples.md
+      - Sets: Data Structures/sets.md
+      - Dictionaries: Data Structures/dictionaries.md
+      - Stacks: Data Structures/stacks.md
+      - Queues: Data Structures/queues.md
+      - Linked Lists: Data Structures/linked-lists.md
+      - Trees: Data Structures/trees.md
+      - Heaps: Data Structures/heaps.md
+      - Graphs: Data Structures/graphs.md
   - Practice:
       - Easy: Practice/Easy.md
       - Medium: Practice/Medium.md

@@ -1,0 +1,71 @@
+site_name: "Python DSA Notes"
+site_url: https://yxshkm-notes.github.io/python-dsa-notes/
+repo_url: https://github.com/yxshkm-notes/python-dsa-notes
+repo_name: GitHub
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+nav:
+  - Home: index.md
+  - Basics:
+      - Variables & Data Types: Basics/Variables & Data Types.md
+      - Input & Output: Basics/Input & Output.md
+      - Control Flow: Basics/Control Flow (if-else).md
+      - Loops: Basics/Loops.md
+      - Functions: Basics/Functions.md
+      - List Comprehensions: Basics/List Comprehensions.md
+      - Error Handling: Basics/Error Handling.md
+      - Modules & Imports: Basics/Modules & Imports.md
+  - Complexity Analysis:
+      - Big O, Big Θ, Big Ω: Complexity Analysis/Big O, Big Θ, Big Ω.md
+      - Time & Space Complexity: Complexity Analysis/Time & Space Complexity.md
+  - Algorithms:
+      - Sorting: Algorithms/Sorting.md
+      - Searching: Algorithms/Searching.md
+      - Recursion & Backtracking: Algorithms/Recursion & Backtracking.md
+      - Dynamic Programming: Algorithms/Dynamic Programming.md
+      - Greedy Algorithms: Algorithms/Greedy Algorithms.md
+      - Graph Algorithms: Algorithms/Graph Algorithms.md
+  - Data Structures:
+      - Lists: Data Structures/Lists.md
+      - Tuples: Data Structures/Tuples.md
+      - Sets: Data Structures/Sets.md
+      - Dictionaries: Data Structures/Dictionaries.md
+      - Stack: Data Structures/Stack.md
+      - Queue: Data Structures/Queue.md
+      - Linked List: Data Structures/Linked List.md
+      - Trees: Data Structures/Trees.md
+      - Heap: Data Structures/Heap.md
+      - Graphs: Data Structures/Graphs.md
+  - Practice:
+      - Easy: Practice/Easy.md
+      - Medium: Practice/Medium.md
+      - Hard: Practice/Hard.md
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - toc:
+      permalink: true

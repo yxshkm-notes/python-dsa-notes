@@ -593,6 +593,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Big O, Big Θ, Big Ω
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -609,6 +627,196 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-three-notations-at-a-glance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Three Notations at a Glance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-why-asymptotic-notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ Why Asymptotic Notation?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-the-complexity-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ The Complexity Classes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-formal-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️⃣ Formal Definitions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3️⃣ Formal Definitions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#big-o-upper-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Big O — Upper Bound
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#big-lower-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Big Ω — Lower Bound
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#big-tight-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Big Θ — Tight Bound
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-big-o-in-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4️⃣ Big O in Code
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-analysing-cases-best-average-worst" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️⃣ Analysing Cases: Best, Average, Worst
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-simplification-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6️⃣ Simplification Rules
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-choosing-the-right-notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7️⃣ Choosing the Right Notation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-common-traps-and-misconceptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8️⃣ Common Traps and Misconceptions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-practical-complexity-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9️⃣ Practical Complexity Targets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#side-by-side-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔟 Side-by-Side Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅ Quick Reference Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1420,6 +1628,185 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-three-notations-at-a-glance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Three Notations at a Glance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-why-asymptotic-notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ Why Asymptotic Notation?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-the-complexity-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ The Complexity Classes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-formal-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️⃣ Formal Definitions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3️⃣ Formal Definitions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#big-o-upper-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Big O — Upper Bound
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#big-lower-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Big Ω — Lower Bound
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#big-tight-bound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Big Θ — Tight Bound
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-big-o-in-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4️⃣ Big O in Code
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-analysing-cases-best-average-worst" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️⃣ Analysing Cases: Best, Average, Worst
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-simplification-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6️⃣ Simplification Rules
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-choosing-the-right-notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7️⃣ Choosing the Right Notation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-common-traps-and-misconceptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8️⃣ Common Traps and Misconceptions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-practical-complexity-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9️⃣ Practical Complexity Targets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#side-by-side-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔟 Side-by-Side Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅ Quick Reference Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1439,6 +1826,443 @@
 
 
 <h1 id="big-o-big-big">Big O, Big Θ, Big Ω<a class="headerlink" href="#big-o-big-big" title="Permanent link">&para;</a></h1>
+<div class="admonition abstract">
+<p class="admonition-title">What You'll Learn</p>
+<ul>
+<li>✅ What asymptotic notation is and why we need it</li>
+<li>✅ The difference between Big O (upper bound), Big Ω (lower bound), and Big Θ (tight bound)</li>
+<li>✅ How to read and write complexity expressions</li>
+<li>✅ The most common complexity classes and what they feel like at scale</li>
+<li>✅ How to determine which notation to use when analysing an algorithm</li>
+<li>✅ Common misconceptions and traps</li>
+</ul>
+</div>
+<p>When we analyse an algorithm, we don't care about exact runtimes — those depend on hardware, language, and input quirks. Instead, we ask: <strong>how does the runtime grow as input size grows?</strong> Asymptotic notation gives us a precise mathematical language to answer that question.</p>
+<hr />
+<div class="admonition tip">
+<p class="admonition-title">New to Complexity Analysis?</p>
+<p>Start by thinking of Big O as a <strong>speed limit sign</strong> — it tells you the worst it can get, not how fast you're going right now. Once that clicks, Big Θ and Big Ω fall into place naturally.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Already know the basics?</p>
+<p>Focus on the <a href="#3️⃣-formal-definitions">Formal Definitions</a> and <a href="#7️⃣-choosing-the-right-notation">Choosing the Right Notation</a> sections — most developers use these terms loosely and mix them up in interviews.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Keep in mind</p>
+<p>In everyday conversation (and most interviews), people say "Big O" when they really mean Big Θ (tight bound). Knowing the difference matters for technical accuracy — and for impressing interviewers.</p>
+</div>
+<hr />
+<h2 id="the-three-notations-at-a-glance">The Three Notations at a Glance<a class="headerlink" href="#the-three-notations-at-a-glance" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>graph LR
+    A["f(n) — actual runtime"] --&gt; B["Big O: f(n) = O(g(n))\nUpper bound\n'at most this bad'"]
+    A --&gt; C["Big Ω: f(n) = Ω(g(n))\nLower bound\n'at least this good'"]
+    A --&gt; D["Big Θ: f(n) = Θ(g(n))\nTight bound\n'exactly this order'"]
+
+    style B fill:#ff6b6b,color:#fff
+    style C fill:#51cf66,color:#fff
+    style D fill:#339af0,color:#fff</code></pre>
+<hr />
+<h2 id="1-why-asymptotic-notation">1️⃣ Why Asymptotic Notation?<a class="headerlink" href="#1-why-asymptotic-notation" title="Permanent link">&para;</a></h2>
+<p>Consider two sorting algorithms:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Algorithm A: always does exactly 3n² + 5n + 12 operations</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="c1"># Algorithm B: always does exactly 100n + 200 operations</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>n = 10:     A = 362 ops      B = 1,200 ops   → A wins
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>n = 100:    A = 30,512 ops   B = 10,200 ops   → B wins
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>n = 1,000:  A = 3,005,012    B = 100,200      → B wins by 30x
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>n = 1,000,000: A ≈ 3×10¹²   B ≈ 10⁸          → B wins by 30,000x
+</code></pre></div>
+<p>The <strong>growth rate</strong> of the dominant term is what matters at scale. We drop constants and lower-order terms:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>3n² + 5n + 12  →  O(n²)    (quadratic growth dominates)
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>100n + 200     →  O(n)     (linear growth dominates)
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">The golden rule</p>
+<p>Drop constants. Drop lower-order terms. Keep only the <strong>fastest-growing term</strong>.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>5n³ + 2n² + 100n + 9  →  O(n³)
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>n log n + n            →  O(n log n)
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>42                     →  O(1)
+</code></pre></div></p>
+</div>
+<hr />
+<h2 id="2-the-complexity-classes">2️⃣ The Complexity Classes<a class="headerlink" href="#2-the-complexity-classes" title="Permanent link">&para;</a></h2>
+<p><img alt="Complexity growth rate chart" src="https://he-s3.s3.amazonaws.com/media/uploads/ece920b.png" />
+<em>Growth rate comparison of common complexity classes — <a href="https://www.hackerearth.com/practice/notes/big-o-cheatsheet-series-data-structures-and-algorithms-with-thier-complexities-1/">HackerEarth</a></em></p>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Name</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O(1)</td>
+<td>Constant</td>
+<td>Array index access, hash map lookup</td>
+</tr>
+<tr>
+<td>O(log n)</td>
+<td>Logarithmic</td>
+<td>Binary search, balanced BST ops</td>
+</tr>
+<tr>
+<td>O(n)</td>
+<td>Linear</td>
+<td>Linear search, single loop</td>
+</tr>
+<tr>
+<td>O(n log n)</td>
+<td>Linearithmic</td>
+<td>Merge sort, heap sort</td>
+</tr>
+<tr>
+<td>O(n²)</td>
+<td>Quadratic</td>
+<td>Bubble sort, nested loops</td>
+</tr>
+<tr>
+<td>O(n³)</td>
+<td>Cubic</td>
+<td>Naive matrix multiplication</td>
+</tr>
+<tr>
+<td>O(2ⁿ)</td>
+<td>Exponential</td>
+<td>Recursive Fibonacci, subset generation</td>
+</tr>
+<tr>
+<td>O(n!)</td>
+<td>Factorial</td>
+<td>Permutation generation, brute-force TSP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="3-formal-definitions">3️⃣ Formal Definitions<a class="headerlink" href="#3-formal-definitions" title="Permanent link">&para;</a></h2>
+<h3 id="big-o-upper-bound">Big O — Upper Bound<a class="headerlink" href="#big-o-upper-bound" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>f(n) = O(g(n))</strong> means there exist positive constants <strong>c</strong> and <strong>n₀</strong> such that:
+<code>f(n) ≤ c · g(n)</code> for all <code>n ≥ n₀</code></p>
+</blockquote>
+<p><img alt="Big O upper bound diagram" src="https://cdn.programiz.com/sites/tutorial2program/files/big0.png" />
+<em>f(n) stays below c·g(n) for all n past n₀ — source: <a href="https://www.programiz.com/dsa/asymptotic-notations">Programiz</a></em></p>
+<p><strong>Example:</strong> <code>f(n) = 3n + 5</code>
+- Choose <code>c = 4</code>, <code>n₀ = 5</code>: <code>3n + 5 ≤ 4n</code> for all <code>n ≥ 5</code> ✅
+- Therefore: <code>f(n) = O(n)</code></p>
+<h3 id="big-lower-bound">Big Ω — Lower Bound<a class="headerlink" href="#big-lower-bound" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>f(n) = Ω(g(n))</strong> means there exist positive constants <strong>c</strong> and <strong>n₀</strong> such that:
+<code>f(n) ≥ c · g(n)</code> for all <code>n ≥ n₀</code></p>
+</blockquote>
+<p><img alt="Big Omega lower bound diagram" src="https://cdn.programiz.com/sites/tutorial2program/files/omega.png" />
+<em>f(n) stays above c·g(n) for all n past n₀ — source: <a href="https://www.programiz.com/dsa/asymptotic-notations">Programiz</a></em></p>
+<p><strong>Example:</strong> Any comparison-based sort is <code>Ω(n log n)</code> — you can't do better than that in the worst case.</p>
+<h3 id="big-tight-bound">Big Θ — Tight Bound<a class="headerlink" href="#big-tight-bound" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>f(n) = Θ(g(n))</strong> means <strong>f(n) = O(g(n))</strong> AND <strong>f(n) = Ω(g(n))</strong></p>
+<p>Equivalently: there exist constants <strong>c₁</strong>, <strong>c₂</strong>, <strong>n₀</strong> such that:
+<code>c₁ · g(n) ≤ f(n) ≤ c₂ · g(n)</code> for all <code>n ≥ n₀</code></p>
+</blockquote>
+<p><img alt="Big Theta tight bound diagram" src="https://cdn.programiz.com/sites/tutorial2program/files/theta.png" />
+<em>f(n) is sandwiched between c₁·g(n) and c₂·g(n) for all n past n₀ — source: <a href="https://www.programiz.com/dsa/asymptotic-notations">Programiz</a></em></p>
+<p><strong>Example:</strong> <code>f(n) = 3n + 5 = Θ(n)</code> because it's both O(n) and Ω(n).</p>
+<hr />
+<h2 id="4-big-o-in-code">4️⃣ Big O in Code<a class="headerlink" href="#4-big-o-in-code" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:5"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">O(1) — Constant</label><label for="__tabbed_1_2">O(log n) — Logarithmic</label><label for="__tabbed_1_3">O(n) — Linear</label><label for="__tabbed_1_4">O(n log n) — Linearithmic</label><label for="__tabbed_1_5">O(n²) — Quadratic</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">get_first</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    <span class="k">return</span> <span class="n">lst</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>        <span class="c1"># one operation, regardless of list size</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="k">def</span><span class="w"> </span><span class="nf">is_even</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>    <span class="k">return</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span>    <span class="c1"># one operation</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">binary_search</span><span class="p">(</span><span class="n">arr</span><span class="p">,</span> <span class="n">target</span><span class="p">):</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    <span class="n">lo</span><span class="p">,</span> <span class="n">hi</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    <span class="k">while</span> <span class="n">lo</span> <span class="o">&lt;=</span> <span class="n">hi</span><span class="p">:</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>        <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">lo</span> <span class="o">+</span> <span class="n">hi</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>        <span class="k">if</span> <span class="n">arr</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span> <span class="o">==</span> <span class="n">target</span><span class="p">:</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>            <span class="k">return</span> <span class="n">mid</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>        <span class="k">elif</span> <span class="n">arr</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">target</span><span class="p">:</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>            <span class="n">lo</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">+</span> <span class="mi">1</span>    <span class="c1"># discard left half</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>        <span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>            <span class="n">hi</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">-</span> <span class="mi">1</span>    <span class="c1"># discard right half</span>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>    <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="c1"># Each iteration halves the search space → log₂(n) iterations</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">find_max</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>    <span class="n">max_val</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>    <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">lst</span><span class="p">:</span>      <span class="c1"># visits each element once</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>        <span class="k">if</span> <span class="n">item</span> <span class="o">&gt;</span> <span class="n">max_val</span><span class="p">:</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>            <span class="n">max_val</span> <span class="o">=</span> <span class="n">item</span>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    <span class="k">return</span> <span class="n">max_val</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">merge_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">):</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>        <span class="k">return</span> <span class="n">arr</span>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>    <span class="n">mid</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>    <span class="n">left</span> <span class="o">=</span> <span class="n">merge_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">[:</span><span class="n">mid</span><span class="p">])</span>   <span class="c1"># log n levels of recursion</span>
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>    <span class="n">right</span> <span class="o">=</span> <span class="n">merge_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">[</span><span class="n">mid</span><span class="p">:])</span>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>    <span class="k">return</span> <span class="n">merge</span><span class="p">(</span><span class="n">left</span><span class="p">,</span> <span class="n">right</span><span class="p">)</span>      <span class="c1"># O(n) work at each level</span>
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="c1"># log n levels × O(n) merge = O(n log n)</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">bubble_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">):</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>          <span class="c1"># outer loop: n iterations</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>  <span class="c1"># inner loop: n iterations</span>
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>            <span class="k">if</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]:</span>
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>                <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a><span class="c1"># n × n = n² comparisons in the worst case</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="5-analysing-cases-best-average-worst">5️⃣ Analysing Cases: Best, Average, Worst<a class="headerlink" href="#5-analysing-cases-best-average-worst" title="Permanent link">&para;</a></h2>
+<p>An algorithm can behave differently depending on the input. We analyse three cases:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">linear_search</span><span class="p">(</span><span class="n">lst</span><span class="p">,</span> <span class="n">target</span><span class="p">):</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">val</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>        <span class="k">if</span> <span class="n">val</span> <span class="o">==</span> <span class="n">target</span><span class="p">:</span>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>            <span class="k">return</span> <span class="n">i</span>    <span class="c1"># found — stop early</span>
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>    <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Case Analysis for Linear Search
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>──────────────────────────────────────────────────────
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>  Best case    →  target is lst[0]   →  1 comparison   →  Ω(1)
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>  Average case →  target is in middle → n/2 comparisons → Θ(n)
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>  Worst case   →  target not in list →  n comparisons   →  O(n)
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>──────────────────────────────────────────────────────
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>  Big O  describes the WORST case upper bound
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>  Big Ω  describes the BEST case lower bound
+<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>  Big Θ  describes the TIGHT bound (when best ≈ worst)
+<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>──────────────────────────────────────────────────────
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">O and Ω are bounds, not cases</p>
+<p>This is one of the most common confusions. Big O is <strong>not</strong> the worst case — it's an <strong>upper bound</strong>. You can correctly say <code>linear_search = O(n²)</code> (it's true but loose). Big O just says "it won't grow faster than this." The <em>tight</em> worst-case bound is Θ(n).</p>
+</div>
+<hr />
+<h2 id="6-simplification-rules">6️⃣ Simplification Rules<a class="headerlink" href="#6-simplification-rules" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c1"># Rule 1: Drop constants</span>
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="n">O</span><span class="p">(</span><span class="mi">3</span><span class="n">n</span><span class="p">)</span>     <span class="err">→</span>  <span class="n">O</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="n">O</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>    <span class="err">→</span>  <span class="n">O</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="n">O</span><span class="p">(</span><span class="mi">2</span><span class="n">n</span><span class="err">²</span><span class="p">)</span>   <span class="err">→</span>  <span class="n">O</span><span class="p">(</span><span class="n">n</span><span class="err">²</span><span class="p">)</span>
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="c1"># Rule 2: Drop lower-order terms</span>
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a><span class="n">O</span><span class="p">(</span><span class="n">n</span><span class="err">²</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span>       <span class="err">→</span>  <span class="n">O</span><span class="p">(</span><span class="n">n</span><span class="err">²</span><span class="p">)</span>
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a><span class="n">O</span><span class="p">(</span><span class="n">n</span> <span class="n">log</span> <span class="n">n</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span>  <span class="err">→</span>  <span class="n">O</span><span class="p">(</span><span class="n">n</span> <span class="n">log</span> <span class="n">n</span><span class="p">)</span>
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a><span class="n">O</span><span class="p">(</span><span class="mi">2</span><span class="n">ⁿ</span> <span class="o">+</span> <span class="n">n</span><span class="err">¹⁰⁰</span><span class="p">)</span>   <span class="err">→</span>  <span class="n">O</span><span class="p">(</span><span class="mi">2</span><span class="n">ⁿ</span><span class="p">)</span>
+<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>
+<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a><span class="c1"># Rule 3: Sequential steps → ADD</span>
+<a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a><span class="k">def</span><span class="w"> </span><span class="nf">two_loops</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>    <span class="c1"># O(n)</span>
+<a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a>        <span class="k">pass</span>
+<a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a>    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>    <span class="c1"># O(n)</span>
+<a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a>        <span class="k">pass</span>
+<a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a><span class="c1"># Total: O(n) + O(n) = O(2n) → O(n)</span>
+<a id="__codelineno-11-18" name="__codelineno-11-18" href="#__codelineno-11-18"></a>
+<a id="__codelineno-11-19" name="__codelineno-11-19" href="#__codelineno-11-19"></a><span class="c1"># Rule 4: Nested steps → MULTIPLY</span>
+<a id="__codelineno-11-20" name="__codelineno-11-20" href="#__codelineno-11-20"></a><span class="k">def</span><span class="w"> </span><span class="nf">nested_loops</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<a id="__codelineno-11-21" name="__codelineno-11-21" href="#__codelineno-11-21"></a>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>        <span class="c1"># O(n)</span>
+<a id="__codelineno-11-22" name="__codelineno-11-22" href="#__codelineno-11-22"></a>        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>    <span class="c1"># O(n)</span>
+<a id="__codelineno-11-23" name="__codelineno-11-23" href="#__codelineno-11-23"></a>            <span class="k">pass</span>
+<a id="__codelineno-11-24" name="__codelineno-11-24" href="#__codelineno-11-24"></a><span class="c1"># Total: O(n) × O(n) = O(n²)</span>
+<a id="__codelineno-11-25" name="__codelineno-11-25" href="#__codelineno-11-25"></a>
+<a id="__codelineno-11-26" name="__codelineno-11-26" href="#__codelineno-11-26"></a><span class="c1"># Rule 5: Different inputs → different variables</span>
+<a id="__codelineno-11-27" name="__codelineno-11-27" href="#__codelineno-11-27"></a><span class="k">def</span><span class="w"> </span><span class="nf">two_arrays</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<a id="__codelineno-11-28" name="__codelineno-11-28" href="#__codelineno-11-28"></a>    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">a</span><span class="p">:</span>    <span class="c1"># O(a)</span>
+<a id="__codelineno-11-29" name="__codelineno-11-29" href="#__codelineno-11-29"></a>        <span class="k">pass</span>
+<a id="__codelineno-11-30" name="__codelineno-11-30" href="#__codelineno-11-30"></a>    <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">b</span><span class="p">:</span>    <span class="c1"># O(b)</span>
+<a id="__codelineno-11-31" name="__codelineno-11-31" href="#__codelineno-11-31"></a>        <span class="k">pass</span>
+<a id="__codelineno-11-32" name="__codelineno-11-32" href="#__codelineno-11-32"></a><span class="c1"># Total: O(a + b)  ← NOT O(n), they&#39;re separate inputs!</span>
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Sequential vs Nested</p>
+<p>The <strong>+</strong> vs <strong>×</strong> distinction is critical. Sequential loops add; nested loops multiply. This single rule explains why two nested loops over n items is O(n²), not O(2n).</p>
+</div>
+<hr />
+<h2 id="7-choosing-the-right-notation">7️⃣ Choosing the Right Notation<a class="headerlink" href="#7-choosing-the-right-notation" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Use Big O when...</label><label for="__tabbed_2_2">Use Big Ω when...</label><label for="__tabbed_2_3">Use Big Θ when...</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>You want to give a <strong>guarantee</strong> — the algorithm will not be worse than this.</p>
+<ul>
+<li>Reporting worst-case performance to stakeholders</li>
+<li>Comparing algorithms where the worst case matters (e.g. real-time systems)</li>
+<li>Most interview and textbook contexts — it's the default notation</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="c1"># Insertion sort: O(n²) worst case</span>
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="c1"># Even if the input is sorted (O(n) best case), we guarantee O(n²)</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<p>You want to give a <strong>lower bound</strong> — no algorithm can do better than this.</p>
+<ul>
+<li>Proving theoretical limits: "any comparison sort requires Ω(n log n)"</li>
+<li>Showing a problem is <em>inherently</em> hard</li>
+<li>Proving your algorithm is optimal</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="c1"># Searching an unsorted array: Ω(n)</span>
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="c1"># You MUST look at every element — no shortcut exists</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<p>You know both the upper and lower bound — the <strong>exact growth order</strong>.</p>
+<ul>
+<li>When best and worst cases have the same growth rate</li>
+<li>Precise academic analysis</li>
+<li>Describing algorithms that behave consistently</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="c1"># Merge sort: Θ(n log n) — always, regardless of input</span>
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="c1"># Binary search: Θ(log n) — always halves the space</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="8-common-traps-and-misconceptions">8️⃣ Common Traps and Misconceptions<a class="headerlink" href="#8-common-traps-and-misconceptions" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="c1"># ❌ Trap 1: O(n) doesn&#39;t mean &quot;fast&quot;</span>
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="c1"># O(n) with n = 10⁹ is still a billion operations.</span>
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="c1"># Constants matter in practice even if we drop them theoretically.</span>
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a>
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="c1"># ❌ Trap 2: Confusing Big O with worst case</span>
+<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a><span class="c1"># These are independent. Big O is a bound, not a case.</span>
+<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="c1"># Quicksort is O(n²) worst case, but also O(n log n) average case.</span>
+<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="c1"># Both statements use Big O for different scenarios.</span>
+<a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a>
+<a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a><span class="c1"># ❌ Trap 3: Same variable for different inputs</span>
+<a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a><span class="k">def</span><span class="w"> </span><span class="nf">func</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<a id="__codelineno-15-12" name="__codelineno-15-12" href="#__codelineno-15-12"></a>    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">a</span><span class="p">:</span>      <span class="c1"># this is O(|a|), not O(n)</span>
+<a id="__codelineno-15-13" name="__codelineno-15-13" href="#__codelineno-15-13"></a>        <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">b</span><span class="p">:</span>  <span class="c1"># this is O(|b|), not O(n)</span>
+<a id="__codelineno-15-14" name="__codelineno-15-14" href="#__codelineno-15-14"></a>            <span class="k">pass</span>
+<a id="__codelineno-15-15" name="__codelineno-15-15" href="#__codelineno-15-15"></a><span class="c1"># Correct: O(|a| × |b|)  — NOT O(n²) unless |a| == |b|</span>
+<a id="__codelineno-15-16" name="__codelineno-15-16" href="#__codelineno-15-16"></a>
+<a id="__codelineno-15-17" name="__codelineno-15-17" href="#__codelineno-15-17"></a><span class="c1"># ❌ Trap 4: Ignoring space complexity</span>
+<a id="__codelineno-15-18" name="__codelineno-15-18" href="#__codelineno-15-18"></a><span class="c1"># Big O applies to space too, not just time.</span>
+<a id="__codelineno-15-19" name="__codelineno-15-19" href="#__codelineno-15-19"></a><span class="c1"># Recursive functions use O(depth) call stack space.</span>
+<a id="__codelineno-15-20" name="__codelineno-15-20" href="#__codelineno-15-20"></a><span class="k">def</span><span class="w"> </span><span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<a id="__codelineno-15-21" name="__codelineno-15-21" href="#__codelineno-15-21"></a>    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="k">return</span> <span class="mi">1</span>
+<a id="__codelineno-15-22" name="__codelineno-15-22" href="#__codelineno-15-22"></a>    <span class="k">return</span> <span class="n">n</span> <span class="o">*</span> <span class="n">factorial</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+<a id="__codelineno-15-23" name="__codelineno-15-23" href="#__codelineno-15-23"></a><span class="c1"># Time: O(n), Space: O(n) — each call lives on the stack</span>
+</code></pre></div>
+<div class="admonition info">
+<p class="admonition-title">Space complexity</p>
+<p>Every call to a recursive function uses stack space. <code>factorial(n)</code> creates <code>n</code> stack frames before any returns — so it's O(n) space even though it looks simple. Iterative versions are O(1) space.</p>
+</div>
+<hr />
+<h2 id="9-practical-complexity-targets">9️⃣ Practical Complexity Targets<a class="headerlink" href="#9-practical-complexity-targets" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>Input Size → Acceptable Complexity
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>──────────────────────────────────────────────────────
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>  n ≤ 10        →  O(n!), O(2ⁿ)     fine
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>  n ≤ 20        →  O(2ⁿ)             fine
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>  n ≤ 100       →  O(n³)             fine
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a>  n ≤ 1,000     →  O(n²)             fine
+<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>  n ≤ 100,000   →  O(n log n)        fine
+<a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a>  n ≤ 10⁶       →  O(n)              fine
+<a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a>  n ≤ 10⁸       →  O(log n), O(1)    fine
+<a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a>──────────────────────────────────────────────────────
+<a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a>Rule of thumb: 10⁸ simple operations ≈ 1 second in Python
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Interview strategy</p>
+<p>When asked to optimise, work backwards from the input size. If <code>n ≤ 10⁵</code>, you need at most O(n log n). If O(n²) is your current solution, that's your target to beat.</p>
+</div>
+<hr />
+<h2 id="side-by-side-summary">🔟 Side-by-Side Summary<a class="headerlink" href="#side-by-side-summary" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>Notation   Symbol   Bound     Says...                      Example
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>─────────────────────────────────────────────────────────────────────────
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>Big O      O(g(n))  Upper     &quot;grows no faster than g(n)&quot;  3n+5 = O(n)
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>Big Omega  Ω(g(n))  Lower     &quot;grows no slower than g(n)&quot;  3n+5 = Ω(1)
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>Big Theta  Θ(g(n))  Tight     &quot;grows at exactly g(n)&quot;      3n+5 = Θ(n)
+<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a>─────────────────────────────────────────────────────────────────────────
+<a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a>  If f(n) = Θ(g(n)), then BOTH f(n) = O(g(n)) AND f(n) = Ω(g(n))
+<a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a>  The reverse is NOT always true.
+<a id="__codelineno-17-9" name="__codelineno-17-9" href="#__codelineno-17-9"></a>─────────────────────────────────────────────────────────────────────────
+</code></pre></div>
+<hr />
+<h2 id="quick-reference-summary">✅ Quick Reference Summary<a class="headerlink" href="#quick-reference-summary" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Notation</th>
+<th>Meaning</th>
+<th>Analogy</th>
+<th>When to use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O(g(n))</td>
+<td>Upper bound — at most this</td>
+<td>Speed limit (won't exceed)</td>
+<td>Worst-case guarantees, interviews</td>
+</tr>
+<tr>
+<td>Ω(g(n))</td>
+<td>Lower bound — at least this</td>
+<td>Minimum time required</td>
+<td>Proving theoretical limits</td>
+</tr>
+<tr>
+<td>Θ(g(n))</td>
+<td>Tight bound — exactly this</td>
+<td>Precise measurement</td>
+<td>When algorithm is consistent</td>
+</tr>
+<tr>
+<td>O(1)</td>
+<td>Constant time</td>
+<td>Instant</td>
+<td>Array access, hash lookup</td>
+</tr>
+<tr>
+<td>O(log n)</td>
+<td>Logarithmic</td>
+<td>Halving the problem</td>
+<td>Binary search, tree height</td>
+</tr>
+<tr>
+<td>O(n)</td>
+<td>Linear</td>
+<td>One pass</td>
+<td>Single loop, linear scan</td>
+</tr>
+<tr>
+<td>O(n log n)</td>
+<td>Linearithmic</td>
+<td>Sort-then-scan</td>
+<td>Merge sort, heap sort</td>
+</tr>
+<tr>
+<td>O(n²)</td>
+<td>Quadratic</td>
+<td>Nested loops</td>
+<td>Bubble sort, brute force pairs</td>
+</tr>
+<tr>
+<td>O(2ⁿ)</td>
+<td>Exponential</td>
+<td>Doubles per step</td>
+<td>Recursive backtracking</td>
+</tr>
+<tr>
+<td>O(n!)</td>
+<td>Factorial</td>
+<td>All permutations</td>
+<td>Brute-force TSP</td>
+</tr>
+</tbody>
+</table>
 
 
 

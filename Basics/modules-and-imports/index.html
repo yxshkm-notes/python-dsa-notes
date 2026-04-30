@@ -511,6 +511,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modules & Imports
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -527,6 +545,174 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-modules-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How Modules Work
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-the-import-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ The import Statement
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-from-import-selective-imports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ from ... import — Selective Imports
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-aliases-with-as" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️⃣ Aliases with as
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-types-of-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4️⃣ Types of Modules
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-packages-and-__init__py" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️⃣ Packages and __init__.py
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5️⃣ Packages and __init__.py">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ascii-package-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ASCII Package Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-how-python-finds-modules-syspath" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6️⃣ How Python Finds Modules: sys.path
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-the-__name__-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7️⃣ The __name__ Guard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-relative-vs-absolute-imports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8️⃣ Relative vs Absolute Imports
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-lazy-conditional-imports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9️⃣ Lazy / Conditional Imports
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reloading-a-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔟 Reloading a Module
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅ Quick Reference Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1420,6 +1606,163 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-modules-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How Modules Work
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-the-import-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ The import Statement
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-from-import-selective-imports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ from ... import — Selective Imports
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-aliases-with-as" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️⃣ Aliases with as
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-types-of-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4️⃣ Types of Modules
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-packages-and-__init__py" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️⃣ Packages and __init__.py
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5️⃣ Packages and __init__.py">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ascii-package-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ASCII Package Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-how-python-finds-modules-syspath" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6️⃣ How Python Finds Modules: sys.path
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-the-__name__-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7️⃣ The __name__ Guard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-relative-vs-absolute-imports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8️⃣ Relative vs Absolute Imports
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-lazy-conditional-imports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9️⃣ Lazy / Conditional Imports
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reloading-a-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔟 Reloading a Module
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅ Quick Reference Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1439,6 +1782,351 @@
 
 
 <h1 id="modules-and-imports">Modules and Imports<a class="headerlink" href="#modules-and-imports" title="Permanent link">&para;</a></h1>
+<div class="admonition abstract">
+<p class="admonition-title">What You'll Learn</p>
+<ul>
+<li>✅ What Python modules and packages are</li>
+<li>✅ How to use <code>import</code>, <code>from ... import</code>, and <code>as</code> aliases</li>
+<li>✅ The difference between standard library, third-party, and local modules</li>
+<li>✅ How Python resolves module paths (<code>sys.path</code>)</li>
+<li>✅ How <code>__init__.py</code> turns a folder into a package</li>
+<li>✅ Best practices for organizing imports</li>
+</ul>
+</div>
+<p>Python's module system lets you split code across files, reuse logic, and tap into thousands of built-in and community libraries — all with a single <code>import</code> statement.</p>
+<hr />
+<div class="admonition tip">
+<p class="admonition-title">New to Python?</p>
+<p>Think of a <strong>module</strong> like a toolbox. Instead of carrying every tool everywhere, you grab only what you need for the job. <code>import math</code> pulls in the math toolbox; <code>from math import sqrt</code> pulls out just the screwdriver.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Already know Python?</p>
+<p>Focus on the <a href="#5️⃣-packages-and-__init__py">Package Structure</a> and <a href="#6️⃣-how-python-finds-modules-syspath">sys.path</a> sections — common interview topics and real-world pain points.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Keep in mind</p>
+<p>Circular imports (Module A imports B, B imports A) will cause <code>ImportError</code>. Structure your packages to avoid this.</p>
+</div>
+<hr />
+<h2 id="how-modules-work">How Modules Work<a class="headerlink" href="#how-modules-work" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>graph TD
+    A[Python Script] --&gt;|import math| B[sys.path lookup]
+    B --&gt; C{Found?}
+    C --&gt;|Yes| D[Load &amp; Cache in sys.modules]
+    C --&gt;|No| E[ModuleNotFoundError]
+    D --&gt; F[Bind name in local namespace]
+    F --&gt; G[Use module in code]</code></pre>
+<hr />
+<h2 id="1-the-import-statement">1️⃣ The <code>import</code> Statement<a class="headerlink" href="#1-the-import-statement" title="Permanent link">&para;</a></h2>
+<p>The simplest way to load a module:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">math</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">random</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="p">)</span>          <span class="c1"># 3.141592653589793</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">())</span>      <span class="c1"># /home/user/project</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>  <span class="c1"># e.g. 7</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>3.141592653589793
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>/home/user/project
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>7
+</code></pre></div></p>
+<div class="admonition info">
+<p class="admonition-title">How it works</p>
+<p><code>import math</code> loads the entire module and binds the name <code>math</code> in your local namespace. You access everything through <code>math.&lt;name&gt;</code>.</p>
+</div>
+<hr />
+<h2 id="2-from-import-selective-imports">2️⃣ <code>from ... import</code> — Selective Imports<a class="headerlink" href="#2-from-import-selective-imports" title="Permanent link">&para;</a></h2>
+<p>Pull specific names directly into your namespace:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">math</span><span class="w"> </span><span class="kn">import</span> <span class="n">sqrt</span><span class="p">,</span> <span class="n">pi</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">os.path</span><span class="w"> </span><span class="kn">import</span> <span class="n">join</span><span class="p">,</span> <span class="n">exists</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">16</span><span class="p">))</span>         <span class="c1"># 4.0</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>               <span class="c1"># 3.141592653589793</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">))</span>   <span class="c1"># a/b</span>
+</code></pre></div>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>4.0
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>3.141592653589793
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>a/b
+</code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">Avoid <code>from module import *</code></p>
+<p>Wildcard imports pollute your namespace and make it hard to trace where names come from. Use explicit imports instead.</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1"># ❌ Bad</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">math</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c1"># ✅ Good</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="kn">from</span><span class="w"> </span><span class="nn">math</span><span class="w"> </span><span class="kn">import</span> <span class="n">sqrt</span><span class="p">,</span> <span class="n">ceil</span><span class="p">,</span> <span class="n">floor</span>
+</code></pre></div>
+<hr />
+<h2 id="3-aliases-with-as">3️⃣ Aliases with <code>as</code><a class="headerlink" href="#3-aliases-with-as" title="Permanent link">&para;</a></h2>
+<p>Rename a module or name on import:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">datetime</span> <span class="k">as</span> <span class="n">dt</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;a&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]})</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="n">now</span> <span class="o">=</span> <span class="n">dt</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">When to use aliases</p>
+<p>Use aliases for long module names (<code>numpy → np</code>) or to avoid name conflicts. Community conventions (like <code>np</code>, <code>pd</code>) improve readability for other developers.</p>
+</div>
+<hr />
+<h2 id="4-types-of-modules">4️⃣ Types of Modules<a class="headerlink" href="#4-types-of-modules" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Standard Library</label><label for="__tabbed_1_2">Third-Party</label><label for="__tabbed_1_3">Local / Your Own</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Built into Python — no installation needed.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>          <span class="c1"># OS interaction</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>         <span class="c1"># System-specific params</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">math</span>        <span class="c1"># Math functions</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="kn">import</span><span class="w"> </span><span class="nn">json</span>        <span class="c1"># JSON parsing</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="kn">import</span><span class="w"> </span><span class="nn">re</span>          <span class="c1"># Regular expressions</span>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="kn">import</span><span class="w"> </span><span class="nn">datetime</span>    <span class="c1"># Dates and times</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="kn">import</span><span class="w"> </span><span class="nn">collections</span> <span class="c1"># Specialized containers</span>
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="kn">import</span><span class="w"> </span><span class="nn">itertools</span>   <span class="c1"># Iteration tools</span>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a><span class="kn">import</span><span class="w"> </span><span class="nn">functools</span>   <span class="c1"># Higher-order functions</span>
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pathlib</span>     <span class="c1"># File system paths</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<p>Installed via <code>pip install &lt;package&gt;</code>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>       <span class="c1"># Numerical computing</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>      <span class="c1"># Data analysis</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>          <span class="c1"># HTTP requests</span>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="kn">import</span><span class="w"> </span><span class="nn">flask</span>             <span class="c1"># Web framework</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="kn">import</span><span class="w"> </span><span class="nn">sqlalchemy</span>        <span class="c1"># Database ORM</span>
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pytest</span>            <span class="c1"># Testing framework</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<p><code>.py</code> files you create in your project.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>project/
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>├── main.py
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>├── utils.py      ← your module
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>└── models/
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>    ├── __init__.py
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>    └── user.py   ← module inside a package
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="c1"># In main.py</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">utils</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">models.user</span><span class="w"> </span><span class="kn">import</span> <span class="n">User</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="5-packages-and-__init__py">5️⃣ Packages and <code>__init__.py</code><a class="headerlink" href="#5-packages-and-__init__py" title="Permanent link">&para;</a></h2>
+<p>A <strong>package</strong> is a folder with an <code>__init__.py</code> file that groups related modules together.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>mypackage/
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>├── __init__.py       ← marks this as a package
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>├── math_utils.py
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>├── string_utils.py
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>└── io/
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>    ├── __init__.py
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>    ├── reader.py
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>    └── writer.py
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c1"># __init__.py controls what&#39;s exposed at the package level</span>
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="c1"># mypackage/__init__.py</span>
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">.math_utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">add</span><span class="p">,</span> <span class="n">subtract</span>
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="kn">from</span><span class="w"> </span><span class="nn">.string_utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">capitalize</span>
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="c1"># Usage from outside:</span>
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a><span class="kn">from</span><span class="w"> </span><span class="nn">mypackage</span><span class="w"> </span><span class="kn">import</span> <span class="n">add</span>
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a><span class="kn">from</span><span class="w"> </span><span class="nn">mypackage.io.reader</span><span class="w"> </span><span class="kn">import</span> <span class="n">read_csv</span>
+</code></pre></div>
+<div class="admonition info">
+<p class="admonition-title"><code>__init__.py</code> in Python 3</p>
+<p>Python 3.3+ supports <strong>namespace packages</strong> — folders without <code>__init__.py</code> can still be imported. But an explicit <code>__init__.py</code> is still recommended for controlling the public API.</p>
+</div>
+<h3 id="ascii-package-structure">ASCII Package Structure<a class="headerlink" href="#ascii-package-structure" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>mypackage/
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>│
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>├── __init__.py         ← Package root; controls public API
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>│   └── from .math_utils import add
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>│
+<a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a>├── math_utils.py       ← Submodule
+<a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a>│   └── def add(a, b): return a + b
+<a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a>│
+<a id="__codelineno-12-9" name="__codelineno-12-9" href="#__codelineno-12-9"></a>└── io/                 ← Sub-package
+<a id="__codelineno-12-10" name="__codelineno-12-10" href="#__codelineno-12-10"></a>    ├── __init__.py
+<a id="__codelineno-12-11" name="__codelineno-12-11" href="#__codelineno-12-11"></a>    └── reader.py
+<a id="__codelineno-12-12" name="__codelineno-12-12" href="#__codelineno-12-12"></a>        └── def read_csv(path): ...
+</code></pre></div>
+<hr />
+<h2 id="6-how-python-finds-modules-syspath">6️⃣ How Python Finds Modules: <code>sys.path</code><a class="headerlink" href="#6-how-python-finds-modules-syspath" title="Permanent link">&para;</a></h2>
+<p>When you <code>import something</code>, Python searches these locations <strong>in order</strong>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>[&#39;&#39;,                             # 1. Current directory
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a> &#39;/usr/lib/python3.11&#39;,          # 2. Standard library
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a> &#39;/usr/lib/python3.11/lib-dynload&#39;,
+<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a> &#39;/home/user/.local/lib/python3.11/site-packages&#39;,  # 3. pip installs
+<a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a> &#39;/usr/local/lib/python3.11/dist-packages&#39;]
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>sys.path lookup order
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>─────────────────────────────────────────────
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>  [0]  &#39;&#39; (empty string)  →  current directory
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a>  [1]  PYTHONPATH env var (if set)
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>  [2]  Standard library dirs
+<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>  [3]  site-packages (pip installs)
+<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a>─────────────────────────────────────────────
+<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a>First match wins. Later entries are ignored.
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Adding custom paths</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;/path/to/my/modules&quot;</span><span class="p">)</span>
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">mymodule</span>  <span class="c1"># now found</span>
+</code></pre></div>
+Prefer this over editing <code>PYTHONPATH</code> globally in production code.</p>
+</div>
+<hr />
+<h2 id="7-the-__name__-guard">7️⃣ The <code>__name__</code> Guard<a class="headerlink" href="#7-the-__name__-guard" title="Permanent link">&para;</a></h2>
+<p>Every module has a <code>__name__</code> attribute. When a file is <strong>run directly</strong>, <code>__name__</code> is <code>"__main__"</code>. When <strong>imported</strong>, it's the module name.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="c1"># utils.py</span>
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a><span class="k">def</span><span class="w"> </span><span class="nf">greet</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">!&quot;</span>
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>
+<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+<a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a>    <span class="c1"># This block only runs when utils.py is executed directly</span>
+<a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a>    <span class="c1"># NOT when imported by another module</span>
+<a id="__codelineno-17-9" name="__codelineno-17-9" href="#__codelineno-17-9"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">greet</span><span class="p">(</span><span class="s2">&quot;World&quot;</span><span class="p">))</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>Running:   python utils.py  →  Hello, World!
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>Importing: import utils     →  (nothing printed)
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Why this matters</p>
+<p>Use <code>if __name__ == "__main__":</code> to add test/demo code to a module without it running on import. This is standard Python practice.</p>
+</div>
+<hr />
+<h2 id="8-relative-vs-absolute-imports">8️⃣ Relative vs Absolute Imports<a class="headerlink" href="#8-relative-vs-absolute-imports" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Absolute Imports</label><label for="__tabbed_2_2">Relative Imports</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Always preferred. Unambiguous — starts from project root.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="c1"># From anywhere in the project:</span>
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">mypackage.math_utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">add</span>
+<a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">mypackage.io.reader</span><span class="w"> </span><span class="kn">import</span> <span class="n">read_csv</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<p>Uses <code>.</code> (current package) and <code>..</code> (parent package). Only valid <strong>inside a package</strong>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="c1"># Inside mypackage/io/writer.py:</span>
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">.</span><span class="w"> </span><span class="kn">import</span> <span class="n">reader</span>           <span class="c1"># same package (io)</span>
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">..</span><span class="w"> </span><span class="kn">import</span> <span class="n">math_utils</span>      <span class="c1"># parent package (mypackage)</span>
+<a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="kn">from</span><span class="w"> </span><span class="nn">..math_utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">add</span>   <span class="c1"># specific name from parent</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Relative import rules</p>
+<p>Relative imports only work inside a package. Running <code>python mypackage/io/writer.py</code> directly will raise <code>ImportError</code>. Use <code>python -m mypackage.io.writer</code> instead.</p>
+</div>
+<hr />
+<h2 id="9-lazy-conditional-imports">9️⃣ Lazy / Conditional Imports<a class="headerlink" href="#9-lazy-conditional-imports" title="Permanent link">&para;</a></h2>
+<p>Import only when needed to speed up startup time or handle optional dependencies:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">process_image</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>    <span class="k">try</span><span class="p">:</span>
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>        <span class="kn">from</span><span class="w"> </span><span class="nn">PIL</span><span class="w"> </span><span class="kn">import</span> <span class="n">Image</span>  <span class="c1"># Only loaded when this function is called</span>
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>        <span class="n">img</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>        <span class="k">return</span> <span class="n">img</span>
+<a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a>    <span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+<a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a>        <span class="k">raise</span> <span class="ne">ImportError</span><span class="p">(</span><span class="s2">&quot;Pillow is required: pip install Pillow&quot;</span><span class="p">)</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="c1"># Platform-specific imports</span>
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>
+<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a><span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">platform</span> <span class="o">==</span> <span class="s2">&quot;win32&quot;</span><span class="p">:</span>
+<a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a>    <span class="kn">import</span><span class="w"> </span><span class="nn">winreg</span>
+<a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a><span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-22-7" name="__codelineno-22-7" href="#__codelineno-22-7"></a>    <span class="kn">import</span><span class="w"> </span><span class="nn">pwd</span>
+</code></pre></div>
+<hr />
+<h2 id="reloading-a-module">🔟 Reloading a Module<a class="headerlink" href="#reloading-a-module" title="Permanent link">&para;</a></h2>
+<p>Normally, Python caches modules in <code>sys.modules</code> — importing twice doesn't re-execute the file. To force a reload (useful in interactive sessions):</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">importlib</span>
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">mymodule</span>
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>
+<a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a><span class="c1"># After changing mymodule.py:</span>
+<a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a><span class="n">importlib</span><span class="o">.</span><span class="n">reload</span><span class="p">(</span><span class="n">mymodule</span><span class="p">)</span>
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Reload gotcha</p>
+<p><code>reload()</code> re-executes the module code, but existing references to old objects are <strong>not</strong> updated. Use with caution.</p>
+</div>
+<hr />
+<h2 id="quick-reference-summary">✅ Quick Reference Summary<a class="headerlink" href="#quick-reference-summary" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>import math</code></td>
+<td>Import entire module, access via <code>math.sqrt()</code></td>
+</tr>
+<tr>
+<td><code>from math import sqrt</code></td>
+<td>Import specific name, use as <code>sqrt()</code></td>
+</tr>
+<tr>
+<td><code>from math import sqrt, pi</code></td>
+<td>Import multiple names</td>
+</tr>
+<tr>
+<td><code>import numpy as np</code></td>
+<td>Import with alias</td>
+</tr>
+<tr>
+<td><code>from . import sibling</code></td>
+<td>Relative import (same package)</td>
+</tr>
+<tr>
+<td><code>from .. import parent_mod</code></td>
+<td>Relative import (parent package)</td>
+</tr>
+<tr>
+<td><code>from pkg import *</code></td>
+<td>❌ Wildcard — avoid in production</td>
+</tr>
+<tr>
+<td><code>importlib.reload(mod)</code></td>
+<td>Force re-execution of a module</td>
+</tr>
+<tr>
+<td><code>sys.path.append(path)</code></td>
+<td>Add custom search path at runtime</td>
+</tr>
+<tr>
+<td><code>if __name__ == "__main__":</code></td>
+<td>Guard block — runs only when file is executed directly</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Import Best Practices</p>
+<ol>
+<li><strong>Standard library → Third-party → Local</strong> — group imports in this order (PEP 8)</li>
+<li>One import per line for clarity</li>
+<li>Use absolute imports unless inside a package</li>
+<li>Avoid circular imports — restructure shared code into a separate utility module</li>
+<li>Use <code>__all__</code> in <code>__init__.py</code> to define your package's public API</li>
+</ol>
+</div>
 
 
 

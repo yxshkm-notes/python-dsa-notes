@@ -56,7 +56,12 @@ nav:
   - Practice:
       - Easy: Practice/Easy.md
       - Medium: Practice/Medium.md
-      - Hard: Practice/Hard.md
+      - Hard Arrays & Strings: Practice/hard_arrays_strings.md
+      - Hard Trees & Graphs: Practice/hard_trees_graphs.md
+      - Hard Linked List: Practice/hard_linked_lists.md
+      - Hard Sorting & Searching: Practice/hard_sorting_searching.md
+      - Hard Stacks & Queues: Practice/hard_stacks_queues.md
+      
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

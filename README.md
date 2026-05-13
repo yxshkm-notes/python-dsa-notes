@@ -5,7 +5,6 @@
 
 A structured, beginner-to-advanced documentation for **Python Programming** and **Data Structures & Algorithms (DSA)** — built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and hosted on GitHub Pages.
 
-🌐 **Live Site:** [yxshkm-notes.github.io/python-dsa-notes](https://yxshkm-notes.github.io/python-dsa-notes/)
 
 ![MkDocs](https://img.shields.io/badge/MkDocs-Material-blue?logo=materialformkdocs)
 ![GitHub Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-222?logo=github)
